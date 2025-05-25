@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sticks",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:berny_planks"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:stick",
+    "count": 4
+  }
+}

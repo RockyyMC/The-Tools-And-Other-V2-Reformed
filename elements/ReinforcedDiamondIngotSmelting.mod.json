@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 8.0,
+    "cookingTime": 179,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RenforcedDiamondOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:ReinforcedDiamondIngot"
+    },
+    "name": "reinforced_diamond_ingot_smelting",
+    "namespace": "mod"
+  }
+}

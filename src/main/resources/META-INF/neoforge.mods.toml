@@ -1,0 +1,43 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="\u00A79Rocky Studios LLC"
+
+[[mods]]
+modId="the_tools_and_other_v2_reformed"
+version="4.1.02"
+displayName="The Tools And Other Reformed"
+updateJSONURL="https://www.github.com/RockyyyFOG/The-Tools-And-Other"
+displayURL="https://www.youtube.com/@RockyyyFOG"
+credits="\u00A74RockyyyGM"
+authors="\u00A7bRockyyy\u00A73FOG,RockyyyGM"
+description="Available New Version Of The Tools And Other V2 Reformed"
+displayTest="IGNORE_SERVER_VERSION"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.the_tools_and_other_v2_reformed]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.4.123,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.the_tools_and_other_v2_reformed]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.4]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.the_tools_and_other_v2_reformed]]
+    modId="rockylib"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

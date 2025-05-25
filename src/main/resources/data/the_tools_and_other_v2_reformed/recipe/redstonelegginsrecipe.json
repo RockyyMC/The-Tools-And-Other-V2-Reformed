@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:redstone_ingot"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:redstone_leggings",
+    "count": 1
+  }
+}

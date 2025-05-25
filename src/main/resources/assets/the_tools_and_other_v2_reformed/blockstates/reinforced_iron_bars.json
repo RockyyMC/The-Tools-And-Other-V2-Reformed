@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "the_tools_and_other_v2_reformed:block/reinforced_iron_bars_post"
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "the_tools_and_other_v2_reformed:block/reinforced_iron_bars",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "the_tools_and_other_v2_reformed:block/reinforced_iron_bars",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "the_tools_and_other_v2_reformed:block/reinforced_iron_bars",
+        "y": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "the_tools_and_other_v2_reformed:block/reinforced_iron_bars",
+        "y": 90,
+        "uvlock": true
+      }
+    }
+  ]
+}

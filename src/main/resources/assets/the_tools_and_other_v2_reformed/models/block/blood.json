@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/blood_1",
+    "up": "the_tools_and_other_v2_reformed:block/blood_1",
+    "north": "the_tools_and_other_v2_reformed:block/blood_1",
+    "east": "the_tools_and_other_v2_reformed:block/blood_1",
+    "south": "the_tools_and_other_v2_reformed:block/blood_1",
+    "west": "the_tools_and_other_v2_reformed:block/blood_1",
+    "particle": "the_tools_and_other_v2_reformed:block/blood_1"
+  },
+  "render_type": "solid"
+}

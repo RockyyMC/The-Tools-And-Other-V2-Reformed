@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "minecraft:block/coarse_dirt",
+    "top": "the_tools_and_other_v2_reformed:block/colosal_grass_block_top",
+    "side": "the_tools_and_other_v2_reformed:block/colosal_grass_block_side",
+    "overlay": "the_tools_and_other_v2_reformed:block/colosal_grass_block_side",
+    "particle": "minecraft:block/coarse_dirt"
+  },
+  "render_type": "cutout_mipped"
+}

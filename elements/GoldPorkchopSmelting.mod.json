@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 3.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:GoldPorkchop"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:GoldPorkchopCooked"
+    },
+    "name": "gold_porkchop_smelting",
+    "namespace": "mod"
+  }
+}

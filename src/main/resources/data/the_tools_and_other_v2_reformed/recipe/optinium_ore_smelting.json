@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "the_tools_and_other",
+  "category": "misc",
+  "experience": 6,
+  "cookingtime": 193,
+  "ingredient": "the_tools_and_other_v2_reformed:optinium_ore",
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:optinium_ingot"
+  }
+}

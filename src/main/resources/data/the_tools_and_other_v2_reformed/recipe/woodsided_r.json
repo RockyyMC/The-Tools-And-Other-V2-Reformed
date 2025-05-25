@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reformed_coal",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aaa",
+    " a "
+  ],
+  "key": {
+    "a": "minecraft:coal"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:woodsided",
+    "count": 10
+  }
+}

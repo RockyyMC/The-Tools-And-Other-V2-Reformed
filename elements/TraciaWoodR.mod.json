@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "group": "reformed_woods",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TraciaLog"
+      },
+      {
+        "value": "CUSTOM:TraciaLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TraciaLog"
+      },
+      {
+        "value": "CUSTOM:TraciaLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TraciaWood"
+    },
+    "name": "tracia_wood_recipe",
+    "namespace": "mod"
+  }
+}

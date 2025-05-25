@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "§8Foods",
+    "icon": {
+      "value": "CUSTOM:Pizza"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "the_tools_and_other_v2_reformed:block/blood_1"
+    },
+    "powered=true": {
+      "model": "the_tools_and_other_v2_reformed:block/blood_1_down"
+    }
+  }
+}

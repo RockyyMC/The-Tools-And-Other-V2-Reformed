@@ -1,0 +1,62 @@
+{
+  "_fv": 79,
+  "_type": "fluid",
+  "definition": {
+    "name": "Petrolleo",
+    "bucketName": "Petrolleo Bucket",
+    "textureStill": "petrolleo_still",
+    "textureFlowing": "petrolleo_flow",
+    "textureRenderOverlay": "",
+    "hasFog": true,
+    "fogColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "fogStartDistance": {
+      "fixedValue": 0.0
+    },
+    "fogEndDistance": {
+      "fixedValue": 100.0
+    },
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 1,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "CUSTOM:BernyParticle"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 0,
+    "density": -99999,
+    "viscosity": 88888,
+    "temperature": 9999,
+    "type": "LAVA",
+    "generateBucket": true,
+    "textureBucket": "petrolleo_nucket",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Fluids"
+      }
+    ],
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "onEntityCollides": {
+      "name": "Tickd"
+    }
+  }
+}

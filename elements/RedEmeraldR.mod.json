@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 12,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RedEmeraldFragment"
+      },
+      {
+        "value": "CUSTOM:RedEmeraldFragment"
+      },
+      {
+        "value": "CUSTOM:RedEmeraldFragment"
+      },
+      {
+        "value": "CUSTOM:RedEmeraldFragment"
+      },
+      {
+        "value": "CUSTOM:RedEmeraldFragment"
+      },
+      {
+        "value": "CUSTOM:RedEmeraldFragment"
+      },
+      {
+        "value": "CUSTOM:RedEmeraldFragment"
+      },
+      {
+        "value": "CUSTOM:RedEmeraldFragment"
+      },
+      {
+        "value": "CUSTOM:RedEmeraldFragment"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RedEmerald"
+    },
+    "name": "red_emerald_r",
+    "namespace": "mod"
+  }
+}

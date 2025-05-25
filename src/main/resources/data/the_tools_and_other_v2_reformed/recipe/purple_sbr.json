@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:purple_slime_ball"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:purple_slime_block",
+    "count": 5
+  }
+}

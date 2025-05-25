@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    " b "
+  ],
+  "key": {
+    "a": "minecraft:diamond",
+    "b": "the_tools_and_other_v2_reformed:stick"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:diamond_hammer_3d",
+    "count": 1
+  }
+}

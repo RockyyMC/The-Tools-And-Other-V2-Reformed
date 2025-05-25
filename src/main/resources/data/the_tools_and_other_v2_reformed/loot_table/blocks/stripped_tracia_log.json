@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "the_tools_and_other_v2_reformed:blocks/stripped_tracia_log",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "the_tools_and_other_v2_reformed:stripped_tracia_log"
+        }
+      ]
+    }
+  ]
+}

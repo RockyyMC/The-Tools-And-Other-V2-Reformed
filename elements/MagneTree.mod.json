@@ -1,0 +1,33 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "magne_tree",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "spacing": 5,
+    "separation": 4,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Magne"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 63,
+    "startHeightMax": 64,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

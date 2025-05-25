@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 4.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:MetalOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:MetalIngot"
+    },
+    "name": "metal_ingot_blasting",
+    "namespace": "mod"
+  }
+}

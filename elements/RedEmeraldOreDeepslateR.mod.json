@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 2.0,
+    "cookingTime": 129,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RedEmeraldOreDeepslate"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:RedEmeraldFragment"
+    },
+    "name": "red_emerald_ore_deepslate_r",
+    "namespace": "mod"
+  }
+}

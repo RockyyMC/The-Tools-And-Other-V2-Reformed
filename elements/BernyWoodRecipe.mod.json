@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BernyLog"
+      },
+      {
+        "value": "CUSTOM:BernyLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BernyLog"
+      },
+      {
+        "value": "CUSTOM:BernyLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BernyWood"
+    },
+    "name": "berny_wood_recipe",
+    "namespace": "mod"
+  }
+}

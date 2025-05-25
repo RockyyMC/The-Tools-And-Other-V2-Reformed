@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:green_diamond_ingot",
+    "b": "the_tools_and_other_v2_reformed:stick"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:green_diamond_hoe",
+    "count": 1
+  }
+}

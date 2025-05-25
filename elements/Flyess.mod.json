@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Flyess",
+    "splashName": "Splash Potion of Flyess",
+    "lingeringName": "Lingering Potion of Flyess",
+    "arrowName": "Arrow of Flyess",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Flyes"
+        },
+        "duration": 2000,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": false
+      }
+    ]
+  }
+}

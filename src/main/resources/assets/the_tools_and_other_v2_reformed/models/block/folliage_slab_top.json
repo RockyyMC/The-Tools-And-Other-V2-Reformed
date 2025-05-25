@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "the_tools_and_other_v2_reformed:block/folliage_block",
+    "bottom": "the_tools_and_other_v2_reformed:block/folliage_block",
+    "top": "the_tools_and_other_v2_reformed:block/folliage_block",
+    "side": "the_tools_and_other_v2_reformed:block/folliage_block"
+  },
+  "render_type": "solid"
+}

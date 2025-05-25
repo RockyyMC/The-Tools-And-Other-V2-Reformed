@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:redstone_ingot"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:redstone_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right_open",
+  "textures": {
+    "particle": "the_tools_and_other_v2_reformed:block/oscuro_planks",
+    "bottom": "the_tools_and_other_v2_reformed:block/oscuro_planks",
+    "top": "the_tools_and_other_v2_reformed:block/oscuro_planks"
+  },
+  "render_type": "solid"
+}

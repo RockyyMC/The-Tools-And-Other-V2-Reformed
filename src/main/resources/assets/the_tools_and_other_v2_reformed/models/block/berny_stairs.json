@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "the_tools_and_other_v2_reformed:block/berny_planks",
+    "bottom": "the_tools_and_other_v2_reformed:block/berny_planks",
+    "top": "the_tools_and_other_v2_reformed:block/berny_planks",
+    "side": "the_tools_and_other_v2_reformed:block/berny_planks"
+  },
+  "render_type": "solid"
+}

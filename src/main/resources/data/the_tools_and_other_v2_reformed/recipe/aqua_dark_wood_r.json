@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:aqua_dark_log"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:aqua_dark_wood",
+    "count": 4
+  }
+}

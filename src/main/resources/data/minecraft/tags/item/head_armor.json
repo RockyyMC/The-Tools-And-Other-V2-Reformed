@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "the_tools_and_other_v2_reformed:reformed_iron_helmet",
+    "the_tools_and_other_v2_reformed:reinforced_diamond_helmet",
+    "the_tools_and_other_v2_reformed:pale_armor_helmet",
+    "the_tools_and_other_v2_reformed:yellow_diamond_helmet",
+    "the_tools_and_other_v2_reformed:green_diamond_helmet",
+    "the_tools_and_other_v2_reformed:red_diamond_helmet",
+    "the_tools_and_other_v2_reformed:metal_helmet",
+    "the_tools_and_other_v2_reformed:stone_helmet",
+    "the_tools_and_other_v2_reformed:dirt_helmet",
+    "the_tools_and_other_v2_reformed:blue_brick_armor_helmet",
+    "the_tools_and_other_v2_reformed:creeper_helmet",
+    "the_tools_and_other_v2_reformed:bedrock_armor_helmet",
+    "the_tools_and_other_v2_reformed:pentist_helmet",
+    "the_tools_and_other_v2_reformed:magnif_helmet",
+    "the_tools_and_other_v2_reformed:emeralda_armor_helmet",
+    "the_tools_and_other_v2_reformed:red_emerald_a_armor_helmet",
+    "the_tools_and_other_v2_reformed:red_armor_helmet",
+    "the_tools_and_other_v2_reformed:aqua_dark_armor_helmet",
+    "the_tools_and_other_v2_reformed:magne_armor_helmet",
+    "the_tools_and_other_v2_reformed:aqua_armor_helmet",
+    "the_tools_and_other_v2_reformed:obsidian_armor_helmet",
+    "the_tools_and_other_v2_reformed:copper_helmet",
+    "the_tools_and_other_v2_reformed:redstone_helmet",
+    "the_tools_and_other_v2_reformed:blue_ruby_armor_helmet",
+    "the_tools_and_other_v2_reformed:cherry_armor_helmet",
+    "the_tools_and_other_v2_reformed:amethyst_armor_helmet"
+  ]
+}

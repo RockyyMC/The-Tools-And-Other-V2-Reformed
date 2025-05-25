@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:deleted_mod_element"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:deleted_mod_element",
+    "count": 5
+  }
+}

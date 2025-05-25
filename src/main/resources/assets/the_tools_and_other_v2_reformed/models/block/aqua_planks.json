@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/aqua_planks",
+    "up": "the_tools_and_other_v2_reformed:block/aqua_planks",
+    "north": "the_tools_and_other_v2_reformed:block/aqua_planks",
+    "east": "the_tools_and_other_v2_reformed:block/aqua_planks",
+    "south": "the_tools_and_other_v2_reformed:block/aqua_planks",
+    "west": "the_tools_and_other_v2_reformed:block/aqua_planks",
+    "particle": "the_tools_and_other_v2_reformed:block/aqua_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,116 @@
+{
+  "_fv": 79,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "red_reinforced_armor_items_head",
+    "enableBody": true,
+    "textureBody": "red_reinforced_armor_items_body",
+    "enableLeggings": true,
+    "textureLeggings": "red_reinforced_armor_items_leggings",
+    "enableBoots": true,
+    "textureBoots": "red_reinforced_armor_items_boots",
+    "onHelmetTick": {
+      "name": "AddEffect"
+    },
+    "onBodyTick": {
+      "name": "AddEffect"
+    },
+    "onLeggingsTick": {
+      "name": "AddEffect"
+    },
+    "onBootsTick": {
+      "name": "AddEffect"
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Armaduras"
+      }
+    ],
+    "armorTextureFile": "red_reinforced_bricks",
+    "helmetName": "Red Reinforced Helmet",
+    "bodyName": "Red Reinforced Chestplate",
+    "leggingsName": "Red Reinforced Leggings",
+    "bootsName": "Red Reinforced Boots",
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "helmetGlowCondition": {
+      "fixedValue": false
+    },
+    "bodyGlowCondition": {
+      "fixedValue": false
+    },
+    "leggingsGlowCondition": {
+      "fixedValue": false
+    },
+    "bootsGlowCondition": {
+      "fixedValue": false
+    },
+    "helmetPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bodyPiglinNeutral": {
+      "fixedValue": false
+    },
+    "leggingsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "bootsPiglinNeutral": {
+      "fixedValue": false
+    },
+    "maxDamage": 15,
+    "damageValueHelmet": 30,
+    "damageValueBody": 30,
+    "damageValueLeggings": 24,
+    "damageValueBoots": 23,
+    "enchantability": 24,
+    "toughness": 9.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:RedReinforcedBricks"
+      }
+    ]
+  }
+}

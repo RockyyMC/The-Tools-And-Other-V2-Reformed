@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fabric",
+        "2": "wood"
+      },
+      "name": "default"
+    }
+  }
+}

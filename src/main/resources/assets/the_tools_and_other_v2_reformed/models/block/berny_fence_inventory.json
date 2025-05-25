@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "the_tools_and_other_v2_reformed:block/berny_planks",
+    "particle": "the_tools_and_other_v2_reformed:block/berny_planks"
+  },
+  "render_type": "solid"
+}

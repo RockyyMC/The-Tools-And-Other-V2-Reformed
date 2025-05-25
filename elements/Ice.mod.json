@@ -1,0 +1,30 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Wind Charge",
+    "icon": "ice",
+    "color": {
+      "value": -16711681,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onStarted": {
+      "name": "AddEfect"
+    },
+    "onActiveTick": {
+      "name": "AddEfect"
+    },
+    "onMobHurt": {
+      "name": "AddEfect"
+    }
+  }
+}

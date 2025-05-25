@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:blue_ruby_ingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:blue_ruby_axe",
+    "count": 1
+  }
+}

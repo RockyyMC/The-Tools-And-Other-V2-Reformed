@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reformed_armors",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:reinforced_iron_ingot"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:reformed_iron_chestplate",
+    "count": 1
+  }
+}

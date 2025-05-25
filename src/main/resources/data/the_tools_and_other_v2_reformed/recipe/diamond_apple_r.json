@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:diamond",
+    "b": "minecraft:apple"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:diamond_apple",
+    "count": 4
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "the_tools_and_other_v2_reformed:custom/bull",
+  "textures": {
+    "all": "the_tools_and_other_v2_reformed:block/bull",
+    "particle": "the_tools_and_other_v2_reformed:block/bull",
+    "0": "the_tools_and_other_v2_reformed:block/bull2"
+  },
+  "render_type": "solid"
+}

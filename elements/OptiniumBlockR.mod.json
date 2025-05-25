@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "the_tools_and_other",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:OptiniumIngot"
+      },
+      {
+        "value": "CUSTOM:OptiniumIngot"
+      },
+      {
+        "value": "CUSTOM:OptiniumIngot"
+      },
+      {
+        "value": "CUSTOM:OptiniumIngot"
+      },
+      {
+        "value": "CUSTOM:OptiniumIngot"
+      },
+      {
+        "value": "CUSTOM:OptiniumIngot"
+      },
+      {
+        "value": "CUSTOM:OptiniumIngot"
+      },
+      {
+        "value": "CUSTOM:OptiniumIngot"
+      },
+      {
+        "value": "CUSTOM:OptiniumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Optinium"
+    },
+    "name": "optinium_block_r",
+    "namespace": "mod"
+  }
+}

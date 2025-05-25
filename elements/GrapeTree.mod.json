@@ -1,0 +1,66 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "grape_tree",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "spacing": 5,
+    "separation": 4,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ColosalForest"
+      },
+      {
+        "value": "CUSTOM:AquaDarkForest"
+      },
+      {
+        "value": "CUSTOM:AquaForest"
+      },
+      {
+        "value": "CUSTOM:Magne"
+      },
+      {
+        "value": "CUSTOM:BernyForest"
+      },
+      {
+        "value": "cherry_grove"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "savanna"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "pale_garden"
+      },
+      {
+        "value": "CUSTOM:TrustanicForest"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 1,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

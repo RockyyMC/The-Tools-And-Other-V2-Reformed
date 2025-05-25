@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 190,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:ColsitemB"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Colsitem"
+    },
+    "name": "colsitem_smelting_r",
+    "namespace": "mod"
+  }
+}

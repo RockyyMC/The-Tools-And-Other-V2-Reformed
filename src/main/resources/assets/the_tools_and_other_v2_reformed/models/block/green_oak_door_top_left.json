@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left",
+  "textures": {
+    "particle": "the_tools_and_other_v2_reformed:block/green_planks",
+    "bottom": "the_tools_and_other_v2_reformed:block/green_planks",
+    "top": "the_tools_and_other_v2_reformed:block/green_planks"
+  },
+  "render_type": "solid"
+}

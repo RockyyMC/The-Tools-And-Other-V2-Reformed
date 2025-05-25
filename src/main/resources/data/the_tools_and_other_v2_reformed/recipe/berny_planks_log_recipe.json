@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    "the_tools_and_other_v2_reformed:berny_log"
+  ],
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:berny_planks",
+    "count": 4
+  }
+}

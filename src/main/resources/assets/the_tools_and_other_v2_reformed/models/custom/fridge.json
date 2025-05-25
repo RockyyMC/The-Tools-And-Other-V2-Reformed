@@ -1,0 +1,523 @@
+{
+  "credit": "Made with Blockbench",
+  "texture_size": [
+    128,
+    128
+  ],
+  "elements": [
+    {
+      "from": [
+        2,
+        -1,
+        1
+      ],
+      "to": [
+        13,
+        32,
+        17
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          28,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            2,
+            3.375,
+            6.125
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "east": {
+          "uv": [
+            0,
+            2,
+            2,
+            6.125
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "south": {
+          "uv": [
+            5.375,
+            2,
+            6.75,
+            6.125
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "west": {
+          "uv": [
+            3.375,
+            2,
+            5.375,
+            6.125
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "up": {
+          "uv": [
+            3.375,
+            2,
+            2,
+            0
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "down": {
+          "uv": [
+            4.75,
+            0,
+            3.375,
+            2
+          ],
+          "texture": "#Black_Fridge.png"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        23,
+        1
+      ],
+      "to": [
+        2,
+        32,
+        17
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7,
+          28,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            6.25,
+            8.125,
+            6.375,
+            9.25
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "east": {
+          "uv": [
+            4.25,
+            8.125,
+            6.25,
+            9.25
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "south": {
+          "uv": [
+            8.375,
+            8.125,
+            8.5,
+            9.25
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "west": {
+          "uv": [
+            6.375,
+            8.125,
+            8.375,
+            9.25
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "up": {
+          "uv": [
+            6.375,
+            8.125,
+            6.25,
+            6.125
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "down": {
+          "uv": [
+            6.5,
+            6.125,
+            6.375,
+            8.125
+          ],
+          "texture": "#Black_Fridge.png"
+        }
+      }
+    },
+    {
+      "from": [
+        1,
+        -1,
+        1
+      ],
+      "to": [
+        2,
+        22,
+        17
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7,
+          18,
+          8
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2,
+            8.125,
+            2.125,
+            11
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "east": {
+          "uv": [
+            0,
+            8.125,
+            2,
+            11
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "south": {
+          "uv": [
+            4.125,
+            8.125,
+            4.25,
+            11
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "west": {
+          "uv": [
+            2.125,
+            8.125,
+            4.125,
+            11
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "up": {
+          "uv": [
+            2.125,
+            8.125,
+            2,
+            6.125
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "down": {
+          "uv": [
+            2.25,
+            6.125,
+            2.125,
+            8.125
+          ],
+          "texture": "#Black_Fridge.png"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        12,
+        2
+      ],
+      "to": [
+        1,
+        18,
+        3
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          18,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            6.875,
+            0.125,
+            7,
+            0.875
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "east": {
+          "uv": [
+            6.75,
+            0.125,
+            6.875,
+            0.875
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "south": {
+          "uv": [
+            7.125,
+            0.125,
+            7.25,
+            0.875
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "west": {
+          "uv": [
+            7,
+            0.125,
+            7.125,
+            0.875
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "up": {
+          "uv": [
+            7,
+            0.125,
+            6.875,
+            0
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "down": {
+          "uv": [
+            7.125,
+            0,
+            7,
+            0.125
+          ],
+          "texture": "#Black_Fridge.png"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        24,
+        2
+      ],
+      "to": [
+        1,
+        30,
+        3
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          30,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            6.875,
+            1,
+            7,
+            1.75
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "east": {
+          "uv": [
+            6.75,
+            1,
+            6.875,
+            1.75
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "south": {
+          "uv": [
+            7.125,
+            1,
+            7.25,
+            1.75
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "west": {
+          "uv": [
+            7,
+            1,
+            7.125,
+            1.75
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "up": {
+          "uv": [
+            7,
+            1,
+            6.875,
+            0.875
+          ],
+          "texture": "#Black_Fridge.png"
+        },
+        "down": {
+          "uv": [
+            7.125,
+            0.875,
+            7,
+            1
+          ],
+          "texture": "#Black_Fridge.png"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        85.37,
+        -77.1,
+        43.49
+      ],
+      "scale": [
+        0.54102,
+        0.33594,
+        0.33594
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        10.27,
+        85.31,
+        44.09
+      ],
+      "translation": [
+        0,
+        0.5,
+        -0.25
+      ],
+      "scale": [
+        0.54102,
+        0.33594,
+        0.33594
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -179.9,
+        -61.73,
+        -156.89
+      ],
+      "translation": [
+        2.75,
+        0.5,
+        -0.25
+      ],
+      "scale": [
+        0.54102,
+        0.33594,
+        0.33594
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -3.83,
+        62.23,
+        22.97
+      ],
+      "translation": [
+        0.75,
+        0.5,
+        -0.25
+      ],
+      "scale": [
+        0.54102,
+        0.33594,
+        0.2832
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        9,
+        0
+      ],
+      "scale": [
+        1,
+        0.63281,
+        0.76953
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        88,
+        0
+      ],
+      "translation": [
+        0,
+        -3.5,
+        0
+      ],
+      "scale": [
+        1,
+        0.46289,
+        0.55664
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        -88,
+        0
+      ],
+      "translation": [
+        0,
+        -3.5,
+        0
+      ],
+      "scale": [
+        0.74414,
+        0.47266,
+        0.74414
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "bone",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "children": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

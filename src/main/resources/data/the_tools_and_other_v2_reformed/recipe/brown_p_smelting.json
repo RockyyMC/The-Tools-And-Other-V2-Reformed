@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "reformed_food",
+  "category": "misc",
+  "experience": 6,
+  "cookingtime": 77,
+  "ingredient": "the_tools_and_other_v2_reformed:brown_porkchop",
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:brown_porkchop_coked"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "plushie": "rockyplushie"
+      },
+      "name": "default"
+    }
+  }
+}

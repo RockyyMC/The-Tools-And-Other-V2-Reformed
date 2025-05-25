@@ -1,0 +1,9 @@
+{
+  "parent": "the_tools_and_other_v2_reformed:custom/blue_torch",
+  "textures": {
+    "all": "the_tools_and_other_v2_reformed:block/lamtorch",
+    "particle": "the_tools_and_other_v2_reformed:block/lamtorch",
+    "0": "the_tools_and_other_v2_reformed:block/lamtorch"
+  },
+  "render_type": "translucent"
+}

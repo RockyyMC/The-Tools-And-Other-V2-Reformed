@@ -1,0 +1,67 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "the_tools_and_other/pentist",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "block/pentist",
+		"particle": "block/pentist"
+	},
+	"elements": [
+		{
+			"name": "root_item",
+			"from": [7.5, 0, 2.5],
+			"to": [11.5, 5, 13.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 2, 8]},
+			"faces": {
+				"north": {"uv": [5.5, 5.5, 7.5, 8], "texture": "#0"},
+				"east": {"uv": [0, 5.5, 5.5, 8], "texture": "#0"},
+				"south": {"uv": [13, 5.5, 15, 8], "texture": "#0"},
+				"west": {"uv": [7.5, 5.5, 13, 8], "texture": "#0"},
+				"up": {"uv": [7.5, 5.5, 5.5, 0], "texture": "#0"},
+				"down": {"uv": [9.5, 0, 7.5, 5.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [98.5, 0, 0],
+			"translation": [-1.5, -3, 6.25],
+			"scale": [1, 0.81055, 0.83789]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [98.5, 0, 0],
+			"translation": [1.5, -2.5, 6.25],
+			"scale": [1, 0.81055, 0.83789]
+		},
+		"firstperson_righthand": {
+			"rotation": [44.75, 0, 0],
+			"translation": [0, 3.25, 2.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [44.75, 0, 0],
+			"translation": [4.25, 3, 2.75]
+		},
+		"ground": {
+			"translation": [0, 3.25, 0]
+		},
+		"gui": {
+			"rotation": [0, 0, 1.25],
+			"translation": [-1.5, 4.75, 0]
+		},
+		"head": {
+			"translation": [0, 15.5, 0]
+		},
+		"fixed": {
+			"rotation": [0, 88.75, 0],
+			"translation": [0, 5.25, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "root_item",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

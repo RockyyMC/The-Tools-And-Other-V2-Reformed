@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:folliage_fragment"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:folliage_wall",
+    "count": 4
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:WATER"
+    },
+    "brewingIngredientStack": {
+      "value": "Blocks.SEA_PICKLE"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:Wearknes"
+    },
+    "name": "wearknes_r",
+    "namespace": "mod"
+  }
+}

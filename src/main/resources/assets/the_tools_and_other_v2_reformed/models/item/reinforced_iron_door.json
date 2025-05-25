@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "the_tools_and_other_v2_reformed:block/reinforced_iron_door_bottom"
+  },
+  "render_type": "translucent"
+}

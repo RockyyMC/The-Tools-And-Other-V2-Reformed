@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/reinforced_iron_ore",
+    "up": "the_tools_and_other_v2_reformed:block/reinforced_iron_ore",
+    "north": "the_tools_and_other_v2_reformed:block/reinforced_iron_ore",
+    "east": "the_tools_and_other_v2_reformed:block/reinforced_iron_ore",
+    "south": "the_tools_and_other_v2_reformed:block/reinforced_iron_ore",
+    "west": "the_tools_and_other_v2_reformed:block/reinforced_iron_ore",
+    "particle": "the_tools_and_other_v2_reformed:block/reinforced_iron_ore"
+  },
+  "render_type": "solid"
+}

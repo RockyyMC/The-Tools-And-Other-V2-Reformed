@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "the_tools_and_other_v2_reformed:block/aqua_trapdoor",
+    "bottom": "the_tools_and_other_v2_reformed:block/aqua_trapdoor",
+    "top": "the_tools_and_other_v2_reformed:block/aqua_trapdoor"
+  },
+  "render_type": "translucent"
+}

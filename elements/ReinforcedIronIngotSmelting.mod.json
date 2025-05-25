@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "reformed_ingots",
+    "cookingBookCategory": "MISC",
+    "xpReward": 2.0,
+    "cookingTime": 176,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:ReinforcedIronOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:ReinforcedIronIngot"
+    },
+    "name": "reinforced_iron_ingot_smelting",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,50 @@
+/gamerule doFireTick false
+/give dev the_tools_and_other:air 200
+/give dev the_tools_and_other:red_diamond_pickaxe
+/time set day
+/fill 13 -53 3
+/fill
+/fill 23 -54 3
+/fill 23 -54 3 0 -54 10 minecraft:oak_slab
+/time set day
+/gamemode
+/fly
+/give dev the_tools_and_other:air 200
+/function the_tools_and_other:air 2
+/function the_tools_and_other:air with entity Dev 2
+/function minecraft:water_bucket with entity Dev 2
+/help
+/neoforge tags minecraft:trial_spawner
+/neoforge tags minecraft:trial_spawner get 2 3
+/neoforge tags minecraft:trial_spawner get 2 33
+/function trop
+/function the_tools_and_other:c
+/function the_tools_and_other:trop
+/function trop with entity Dev 2
+/function the_tools_and_other:trop with entity Dev 2
+/function the_tools_and_other:c with entity Dev 2
+/advancement revoke Dev only all
+/advancement revoke Dev only the_tools_and_other:artifacts
+/give EV the_tools_and_other:air 200
+/give Dev the_tools_and_other:air 200
+/fly
+/damage dev 15 the_tools_and_other:fired
+/fly
+/damage dev 15 the_tools_and_other:fired
+/time set day
+/summon axolotl -17.38 -60.00 -5.40
+/summon axolotl -17.38 -60.00 -5.40t
+/summon axolotl -17.38 -60.00 -5.40
+/kill @e
+/kill @e[type=the_tools_and_other_v2_reformed:purple_slime]
+/kill @e[type=item]
+/kill @e
+/effect give @e[type=zombie] minecraft:fire_resistance 100000 200
+/effect give @e[type=zombie] minecraft:resistance 100000 200
+/effect give @e[type=zombie] minecraft:speed 100000 200
+/effect give @e[type=zombie] minecraft:jump_boost 100000 200
+/effect give @e[type=slime] minecraft:jump_boost 100000 200
+/effect give @e[type=the_tools_and_other_v2_reformed:purple_slime] minecraft:jump_boost 100000 200
+/effect give @e[type=the_tools_and_other_v2_reformed:blue_slime] minecraft:jump_boost 100000 200
+/effect give @e[type=the_tools_and_other_v2_reformed:purple_slime] minecraft:jump_boost 100000 200
+/give @s iron_pickaxe

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "the_tools_and_other_v2_reformed:berny_tree",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 9,
+    "separation": 6,
+    "salt": 467094728
+  }
+}

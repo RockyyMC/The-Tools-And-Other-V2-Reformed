@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "reformed_woods",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:tracia_log"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:tracia_wood",
+    "count": 5
+  }
+}

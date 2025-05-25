@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/tracia_log_top",
+    "up": "the_tools_and_other_v2_reformed:block/tracia_log_top",
+    "north": "the_tools_and_other_v2_reformed:block/tracia_log",
+    "east": "the_tools_and_other_v2_reformed:block/tracia_log",
+    "south": "the_tools_and_other_v2_reformed:block/tracia_log",
+    "west": "the_tools_and_other_v2_reformed:block/tracia_log",
+    "particle": "the_tools_and_other_v2_reformed:block/tracia_log_top"
+  },
+  "render_type": "solid"
+}

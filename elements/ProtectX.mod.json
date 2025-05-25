@@ -1,0 +1,172 @@
+{
+  "_fv": 79,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Protect X",
+    "supportedSlots": "any",
+    "weight": 11,
+    "anvilCost": 1,
+    "maxLevel": 7,
+    "damageModifier": 50,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:AmethystArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:AmethystArmor.body"
+      },
+      {
+        "value": "CUSTOM:AmethystArmor.legs"
+      },
+      {
+        "value": "CUSTOM:AmethystArmor.boots"
+      },
+      {
+        "value": "CUSTOM:CherryArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:CherryArmor.body"
+      },
+      {
+        "value": "CUSTOM:CherryArmor.legs"
+      },
+      {
+        "value": "CUSTOM:CherryArmor.boots"
+      },
+      {
+        "value": "CUSTOM:BlueRubyArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:BlueRubyArmor.body"
+      },
+      {
+        "value": "CUSTOM:BlueRubyArmor.legs"
+      },
+      {
+        "value": "CUSTOM:BlueRubyArmor.boots"
+      },
+      {
+        "value": "CUSTOM:Redstone.helmet"
+      },
+      {
+        "value": "CUSTOM:Redstone.body"
+      },
+      {
+        "value": "CUSTOM:Redstone.legs"
+      },
+      {
+        "value": "CUSTOM:Redstone.boots"
+      },
+      {
+        "value": "CUSTOM:Copper.helmet"
+      },
+      {
+        "value": "CUSTOM:Copper.body"
+      },
+      {
+        "value": "CUSTOM:Copper.legs"
+      },
+      {
+        "value": "CUSTOM:Copper.boots"
+      },
+      {
+        "value": "CUSTOM:ObsidianArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:ObsidianArmor.body"
+      },
+      {
+        "value": "CUSTOM:ObsidianArmor.legs"
+      },
+      {
+        "value": "CUSTOM:ObsidianArmor.boots"
+      },
+      {
+        "value": "CUSTOM:AquaArmor.body"
+      },
+      {
+        "value": "CUSTOM:AquaArmor.legs"
+      },
+      {
+        "value": "CUSTOM:AquaArmor.boots"
+      },
+      {
+        "value": "CUSTOM:MagneArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:MagneArmor.body"
+      },
+      {
+        "value": "CUSTOM:MagneArmor.legs"
+      },
+      {
+        "value": "CUSTOM:MagneArmor.boots"
+      },
+      {
+        "value": "CUSTOM:AquaDarkArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:AquaDarkArmor.body"
+      },
+      {
+        "value": "CUSTOM:AquaDarkArmor.legs"
+      },
+      {
+        "value": "CUSTOM:AquaDarkArmor.boots"
+      },
+      {
+        "value": "CUSTOM:RedArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:RedArmor.body"
+      },
+      {
+        "value": "CUSTOM:RedArmor.legs"
+      },
+      {
+        "value": "CUSTOM:RedArmor.boots"
+      },
+      {
+        "value": "CUSTOM:RedEmeraldAArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:RedEmeraldAArmor.body"
+      },
+      {
+        "value": "CUSTOM:RedEmeraldAArmor.legs"
+      },
+      {
+        "value": "CUSTOM:RedEmeraldAArmor.boots"
+      },
+      {
+        "value": "CUSTOM:EmeraldaArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:EmeraldaArmor.body"
+      },
+      {
+        "value": "CUSTOM:EmeraldaArmor.legs"
+      },
+      {
+        "value": "CUSTOM:EmeraldaArmor.boots"
+      },
+      {
+        "value": "CUSTOM:Pentist.helmet"
+      },
+      {
+        "value": "CUSTOM:Pentist.body"
+      },
+      {
+        "value": "CUSTOM:Pentist.legs"
+      },
+      {
+        "value": "CUSTOM:Pentist.boots"
+      }
+    ],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

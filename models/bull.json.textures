@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bull2"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:aqua_dark_planks",
+    "b": "the_tools_and_other_v2_reformed:stick"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:aqua_dark_fence",
+    "count": 4
+  }
+}

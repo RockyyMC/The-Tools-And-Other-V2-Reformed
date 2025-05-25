@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:blue_bricks"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:blue_reinforced_bricks",
+    "count": 5
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "the_void",
+  "features": "the_tools_and_other_v2_reformed:copsidian",
+  "step": "underground_ores"
+}

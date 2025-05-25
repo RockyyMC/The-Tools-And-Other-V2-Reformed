@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "Black_Fridge.png": "black_fridge"
+      },
+      "name": "default"
+    }
+  }
+}

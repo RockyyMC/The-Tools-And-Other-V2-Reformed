@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AquaDarkPlanks"
+      },
+      {
+        "value": "CUSTOM:AquaDarkPlanks"
+      },
+      {
+        "value": "CUSTOM:AquaDarkPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AquaDarkPressurePlate"
+    },
+    "name": "aqua_dark_pressure_plate_r",
+    "namespace": "mod"
+  }
+}

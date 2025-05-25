@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 3.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:GoldPorkchop"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:GoldPorkchopCooked"
+    },
+    "name": "gold_porkchop_smoker",
+    "namespace": "mod"
+  }
+}

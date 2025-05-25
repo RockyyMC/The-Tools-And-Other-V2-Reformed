@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/f",
+    "up": "the_tools_and_other_v2_reformed:block/f",
+    "north": "the_tools_and_other_v2_reformed:block/f",
+    "east": "the_tools_and_other_v2_reformed:block/f",
+    "south": "the_tools_and_other_v2_reformed:block/f",
+    "west": "the_tools_and_other_v2_reformed:block/f",
+    "particle": "the_tools_and_other_v2_reformed:block/f"
+  },
+  "render_type": "solid"
+}

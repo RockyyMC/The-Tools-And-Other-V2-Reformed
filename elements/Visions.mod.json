@@ -1,0 +1,24 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Vision",
+    "icon": "vision",
+    "color": {
+      "value": -15007515,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": "entity.lingeringpotion.throw"
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onActiveTick": {
+      "name": "AddEff"
+    }
+  }
+}

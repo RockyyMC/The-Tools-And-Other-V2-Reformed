@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "the_tools_and_other:optinium_rot",
+    "the_tools_and_other:optinium_pickaxe",
+    "the_tools_and_other:optinium_axe",
+    "the_tools_and_other:optinium_hammer",
+    "the_tools_and_other:optinium",
+    "the_tools_and_other:optinium_ore",
+    "the_tools_and_other:optinium_ingot"
+  ]
+}

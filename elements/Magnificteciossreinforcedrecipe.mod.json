@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Magnifictecioss"
+      },
+      {
+        "value": "CUSTOM:Magnifictecioss"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Magnifictecioss"
+      },
+      {
+        "value": "CUSTOM:Magnifictecioss"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagnificteciossReinforced"
+    },
+    "name": "magnificteciossreinforcedrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "the_tools_and_other_v2_reformed:custom/pentist",
+  "textures": {
+    "0": "the_tools_and_other_v2_reformed:block/pentist",
+    "particle": "the_tools_and_other_v2_reformed:item/pentist"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/green_sandstone_bottom",
+    "up": "the_tools_and_other_v2_reformed:block/green_sandstone_top",
+    "north": "the_tools_and_other_v2_reformed:block/green_sandstone",
+    "east": "the_tools_and_other_v2_reformed:block/green_sandstone",
+    "south": "the_tools_and_other_v2_reformed:block/green_sandstone",
+    "west": "the_tools_and_other_v2_reformed:block/green_sandstone",
+    "particle": "the_tools_and_other_v2_reformed:block/green_sandstone_bottom"
+  },
+  "render_type": "solid"
+}

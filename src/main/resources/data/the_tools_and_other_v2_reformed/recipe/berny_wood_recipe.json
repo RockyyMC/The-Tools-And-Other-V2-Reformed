@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:berny_log"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:berny_wood",
+    "count": 3
+  }
+}

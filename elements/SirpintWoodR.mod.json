@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SirpintLog"
+      },
+      {
+        "value": "CUSTOM:SirpintLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SirpintLog"
+      },
+      {
+        "value": "CUSTOM:SirpintLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SirpintWood"
+    },
+    "name": "sirpint_wood_r",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/mossy_blue_bricks",
+    "up": "the_tools_and_other_v2_reformed:block/mossy_blue_bricks",
+    "north": "the_tools_and_other_v2_reformed:block/mossy_blue_bricks",
+    "east": "the_tools_and_other_v2_reformed:block/mossy_blue_bricks",
+    "south": "the_tools_and_other_v2_reformed:block/mossy_blue_bricks",
+    "west": "the_tools_and_other_v2_reformed:block/mossy_blue_bricks",
+    "particle": "the_tools_and_other_v2_reformed:block/mossy_blue_bricks"
+  },
+  "render_type": "solid"
+}

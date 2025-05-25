@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_tools_and_other_v2_reformed:rodaja_de_pizza"
+    },
+    "title": {
+      "translate": "advancements.una_terrible_pizza.title"
+    },
+    "description": {
+      "translate": "advancements.una_terrible_pizza.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "una_terrible_pizza_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_tools_and_other_v2_reformed:rodaja_de_pizza"
+            ],
+            "count": {
+              "min": 4,
+              "max": 8
+            }
+          }
+        ]
+      }
+    },
+    "una_terrible_pizza_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_tools_and_other_v2_reformed:pizza"
+            ],
+            "count": {
+              "min": 4,
+              "max": 8
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20,
+    "loot": [
+      "the_tools_and_other_v2_reformed:deleted_mod_element"
+    ],
+    "recipes": [
+      "the_tools_and_other_v2_reformed:pizza_r"
+    ]
+  },
+  "parent": "minecraft:adventure/adventuring_time"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left",
+  "textures": {
+    "particle": "the_tools_and_other_v2_reformed:block/folliage_door_left",
+    "bottom": "the_tools_and_other_v2_reformed:block/folliage_door_left",
+    "top": "the_tools_and_other_v2_reformed:block/folliage_door_top"
+  },
+  "render_type": "translucent"
+}

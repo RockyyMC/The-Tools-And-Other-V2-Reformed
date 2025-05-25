@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 199,
+  "ingredient": "minecraft:redstone_block",
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:redstone_ingot"
+  }
+}

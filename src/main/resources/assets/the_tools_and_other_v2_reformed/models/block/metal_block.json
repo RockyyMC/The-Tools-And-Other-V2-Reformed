@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/metal_block",
+    "up": "the_tools_and_other_v2_reformed:block/metal_block",
+    "north": "the_tools_and_other_v2_reformed:block/metal_block",
+    "east": "the_tools_and_other_v2_reformed:block/metal_block",
+    "south": "the_tools_and_other_v2_reformed:block/metal_block",
+    "west": "the_tools_and_other_v2_reformed:block/metal_block",
+    "particle": "the_tools_and_other_v2_reformed:block/metal_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,24 @@
+{
+  "_fv": 79,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "One Plus",
+    "achievementDescription": "Entra Al Bioma Berny Forest",
+    "achievementIcon": {
+      "value": "CUSTOM:BernyPlanks"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:UnaTerriblePizza"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"35\" y=\"51\"><next><block type=\"biome_entered\"><field name=\"biome\">CUSTOM:BernyForest</field></block></next></block></xml>"
+  }
+}

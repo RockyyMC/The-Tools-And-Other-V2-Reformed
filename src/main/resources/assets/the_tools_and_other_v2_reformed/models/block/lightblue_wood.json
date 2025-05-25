@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/lightblue_log",
+    "up": "the_tools_and_other_v2_reformed:block/lightblue_log",
+    "north": "the_tools_and_other_v2_reformed:block/lightblue_log",
+    "east": "the_tools_and_other_v2_reformed:block/lightblue_log",
+    "south": "the_tools_and_other_v2_reformed:block/lightblue_log",
+    "west": "the_tools_and_other_v2_reformed:block/lightblue_log",
+    "particle": "the_tools_and_other_v2_reformed:block/lightblue_log"
+  },
+  "render_type": "solid"
+}

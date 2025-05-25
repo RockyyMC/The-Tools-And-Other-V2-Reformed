@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:magne_planks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:magne_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:diamond",
+    "b": "minecraft:diamond_block",
+    "c": "minecraft:apple"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:enchanted_diamond_apple",
+    "count": 3
+  }
+}

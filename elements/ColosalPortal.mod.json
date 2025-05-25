@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "colosal_portal",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "spacing": 5,
+    "separation": 2,
+    "restrictionBiomes": [
+      {
+        "value": "#minecraft:is_overworld"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 108,
+    "startHeightMax": 110,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": [
+      {
+        "poolName": "colosal",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 89,
+            "structure": "colosal_portal",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.STRUCTURE_BLOCK"
+              },
+              {
+                "value": "Blocks.AIR"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

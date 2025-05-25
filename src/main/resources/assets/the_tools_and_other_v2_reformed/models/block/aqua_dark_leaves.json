@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/oscuro_leaves",
+    "up": "the_tools_and_other_v2_reformed:block/oscuro_leaves",
+    "north": "the_tools_and_other_v2_reformed:block/oscuro_leaves",
+    "east": "the_tools_and_other_v2_reformed:block/oscuro_leaves",
+    "south": "the_tools_and_other_v2_reformed:block/oscuro_leaves",
+    "west": "the_tools_and_other_v2_reformed:block/oscuro_leaves",
+    "particle": "the_tools_and_other_v2_reformed:block/oscuro_leaves"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,51 @@
+plugins {
+    id 'eclipse'
+    id 'net.neoforged.moddev' version '2.0.86'
+}
+
+version = '4.1.2-Reformed'  // La versión del mod
+base.archivesName = "the_tools_and_other_v2_reformed" // Nombre del Archivo final
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = "21.4.123"  // Versión de NeoForge
+
+    runs {
+        client {
+            client()
+
+            def mcreatorJvmOptions = System.getenv('MCREATOR_JVM_OPTIONS') // configuracion de mcreator
+            if (mcreatorJvmOptions) {
+                mcreatorJvmOptions.split("\\s+").findAll { it.trim() }.each { arg ->
+                    jvmArgument(arg)
+                }
+            }
+        }
+        server {
+            server()
+        }
+
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        mcreator {
+            sourceSet sourceSets.main
+            // Aquí declaras el paquete base y demás ajustes si es necesario
+        }
+    }
+}
+
+dependencies {
+     implementation files('libs/rockylib-1.1-Fint.jar') // dependencias
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+apply from: 'mcreator.gradle' // importante ponerlo

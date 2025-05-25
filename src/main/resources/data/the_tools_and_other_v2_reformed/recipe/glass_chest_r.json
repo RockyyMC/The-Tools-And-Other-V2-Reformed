@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:glass_pane"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:glass_chest",
+    "count": 2
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "particle": "the_tools_and_other_v2_reformed:block/folliage_block",
+    "texture": "the_tools_and_other_v2_reformed:block/folliage_block"
+  },
+  "render_type": "translucent"
+}

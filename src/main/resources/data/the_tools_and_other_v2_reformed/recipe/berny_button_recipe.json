@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    "the_tools_and_other_v2_reformed:berny_planks"
+  ],
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:berny_button",
+    "count": 1
+  }
+}

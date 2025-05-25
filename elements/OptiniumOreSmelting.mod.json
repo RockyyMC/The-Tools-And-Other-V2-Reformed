@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "the_tools_and_other",
+    "cookingBookCategory": "MISC",
+    "xpReward": 6.0,
+    "cookingTime": 193,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:OptiniumOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:OptiniumIngot"
+    },
+    "name": "optinium_ore_smelting",
+    "namespace": "mod"
+  }
+}

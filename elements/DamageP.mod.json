@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Damage >_<",
+    "splashName": "Splash Potion of Damage >_<",
+    "lingeringName": "Lingering Potion of Damage >_<",
+    "arrowName": "Arrow of Damage >_<",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Damage"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "sword": "sword"
+      },
+      "name": "default"
+    }
+  }
+}

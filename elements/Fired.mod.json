@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 5.0,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s was killed by ⨕",
+    "itemDeathMessage": "%1$s was slain by red Volcanic Block",
+    "playerDeathMessage": "%1$s was slain by red Volcanic Block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/optiniumblock",
+    "up": "the_tools_and_other_v2_reformed:block/optiniumblock",
+    "north": "the_tools_and_other_v2_reformed:block/optiniumblock",
+    "east": "the_tools_and_other_v2_reformed:block/optiniumblock",
+    "south": "the_tools_and_other_v2_reformed:block/optiniumblock",
+    "west": "the_tools_and_other_v2_reformed:block/optiniumblock",
+    "particle": "the_tools_and_other_v2_reformed:block/optiniumblock"
+  },
+  "render_type": "solid"
+}

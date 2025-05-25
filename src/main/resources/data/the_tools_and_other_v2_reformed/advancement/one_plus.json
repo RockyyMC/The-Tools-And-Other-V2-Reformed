@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_tools_and_other_v2_reformed:berny_planks"
+    },
+    "title": {
+      "translate": "advancements.one_plus.title"
+    },
+    "description": {
+      "translate": "advancements.one_plus.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "one_plus_0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "the_tools_and_other_v2_reformed:berny_forest"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_tools_and_other_v2_reformed:una_terrible_pizza"
+}

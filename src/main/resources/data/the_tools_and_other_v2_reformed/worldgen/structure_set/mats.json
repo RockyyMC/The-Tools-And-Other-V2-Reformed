@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "the_tools_and_other_v2_reformed:mats",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 638654217
+  }
+}

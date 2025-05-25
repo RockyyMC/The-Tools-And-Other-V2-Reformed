@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_tools_and_other_v2_reformed:block/berny_log_side",
+    "particle": "the_tools_and_other_v2_reformed:block/berny_log_side"
+  },
+  "render_type": "solid"
+}

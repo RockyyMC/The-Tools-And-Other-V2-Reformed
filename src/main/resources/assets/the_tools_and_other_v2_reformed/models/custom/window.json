@@ -1,0 +1,169 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "the_tools_and_other/window",
+  "texture_size": [
+    32,
+    32
+  ],
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        0
+      ],
+      "to": [
+        14,
+        11,
+        1
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          5,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            5.5,
+            6
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            6,
+            0.5,
+            12
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            5.5,
+            0,
+            11,
+            6
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            6,
+            1,
+            12
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            6.5,
+            6.5,
+            1,
+            6
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            6.5,
+            6.5,
+            1,
+            7
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        0,
+        7.25
+      ],
+      "scale": [
+        0.80078,
+        0.77734,
+        1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        0,
+        7.25
+      ],
+      "scale": [
+        0.80078,
+        0.77734,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        8.75,
+        -1.75,
+        0
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        10.75,
+        -1.75,
+        0
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        5,
+        6.25
+      ]
+    },
+    "gui": {
+      "translation": [
+        -0.25,
+        2.25,
+        0
+      ]
+    },
+    "head": {
+      "translation": [
+        -0.75,
+        2.75,
+        1
+      ]
+    },
+    "fixed": {
+      "translation": [
+        -1,
+        2.25,
+        8
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "window",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "color": 0,
+      "children": [
+        0
+      ]
+    }
+  ]
+}

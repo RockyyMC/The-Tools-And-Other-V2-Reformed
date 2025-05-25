@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/diamond_block",
+    "up": "minecraft:block/diamond_block",
+    "north": "minecraft:block/diamond_block",
+    "east": "minecraft:block/diamond_block",
+    "south": "minecraft:block/diamond_block",
+    "west": "minecraft:block/diamond_block",
+    "particle": "minecraft:block/diamond_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_tools_and_other_v2_reformed:red_diamond_ingot"
+    },
+    "title": {
+      "translate": "advancements.artifacts.title"
+    },
+    "description": {
+      "translate": "advancements.artifacts.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "artifacts_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_tools_and_other_v2_reformed:red_diamond_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50,
+    "recipes": [
+      "the_tools_and_other_v2_reformed:red_diamond_block_r",
+      "the_tools_and_other_v2_reformed:red_diamond_ingot_r",
+      "the_tools_and_other_v2_reformed:red_diamond_chestplate_r",
+      "the_tools_and_other_v2_reformed:red_diamond_helmet_r",
+      "the_tools_and_other_v2_reformed:red_diamond_leggins_r",
+      "the_tools_and_other_v2_reformed:red_diamond_boots_r",
+      "the_tools_and_other_v2_reformed:red_diamond_sword_r",
+      "the_tools_and_other_v2_reformed:red_diamond_pickaxe_r",
+      "the_tools_and_other_v2_reformed:red_diamond_axe_r",
+      "the_tools_and_other_v2_reformed:red_diamond_shovel_r",
+      "the_tools_and_other_v2_reformed:red_diamond_hoe_r",
+      "the_tools_and_other_v2_reformed:red_diamond_ingot_smelting"
+    ]
+  },
+  "parent": "minecraft:adventure/totem_of_undying"
+}

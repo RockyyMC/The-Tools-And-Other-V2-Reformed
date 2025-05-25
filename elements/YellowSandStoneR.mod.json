@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:YellowSand"
+      },
+      {
+        "value": "CUSTOM:YellowSand"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:YellowSand"
+      },
+      {
+        "value": "CUSTOM:YellowSand"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:YellowSandStone"
+    },
+    "name": "yellow_sand_stone_r",
+    "namespace": "mod"
+  }
+}

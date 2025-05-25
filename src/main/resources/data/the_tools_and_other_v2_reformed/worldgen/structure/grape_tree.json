@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "the_tools_and_other_v2_reformed:grape_tree",
+  "size": 1,
+  "max_distance_from_center": 64,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE",
+  "biomes": [
+    "the_tools_and_other_v2_reformed:colosal_forest",
+    "the_tools_and_other_v2_reformed:aqua_dark_forest",
+    "the_tools_and_other_v2_reformed:aqua_forest",
+    "the_tools_and_other_v2_reformed:magne",
+    "the_tools_and_other_v2_reformed:berny_forest",
+    "cherry_grove",
+    "forest",
+    "savanna",
+    "taiga",
+    "plains",
+    "pale_garden",
+    "the_tools_and_other_v2_reformed:trustanic_forest"
+  ],
+  "use_expansion_hack": false
+}

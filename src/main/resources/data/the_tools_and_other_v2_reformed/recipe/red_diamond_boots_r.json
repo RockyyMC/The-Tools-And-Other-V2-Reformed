@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:red_diamond_ingot"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:red_diamond_boots",
+    "count": 1
+  }
+}

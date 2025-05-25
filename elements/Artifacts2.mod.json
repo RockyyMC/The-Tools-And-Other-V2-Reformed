@@ -1,0 +1,31 @@
+{
+  "_fv": 79,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "§2Artifact",
+    "achievementDescription": "§2Artifact",
+    "achievementIcon": {
+      "value": "CUSTOM:GreenDiamondIngot"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "GreenDiamondIngotSmelting",
+      "GreenDiamondIngotR",
+      "GreenDiamondPickaxeR",
+      "GreenDiamondAxeR",
+      "GreenDiamondShovelR",
+      "GreenDiamondHoeR"
+    ],
+    "rewardXP": 50,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "adventure/totem_of_undying"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"31\" y=\"51\"><next><block type=\"item_in_inventory\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:GreenDiamondIngot</field></block></value></block></next></block></xml>"
+  }
+}

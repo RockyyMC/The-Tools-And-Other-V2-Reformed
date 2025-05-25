@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "the_tools_and_other_v2_reformed:block/magne_door_abajo",
+    "particle": "the_tools_and_other_v2_reformed:block/magne_door_abajo"
+  },
+  "render_type": "solid"
+}

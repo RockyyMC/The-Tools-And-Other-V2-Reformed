@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Vision",
+    "splashName": "Splash Potion of Vision",
+    "lingeringName": "Lingering Potion of Vision",
+    "arrowName": "Arrow of Vision",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Visions"
+        },
+        "duration": 7600,
+        "infinite": false,
+        "amplifier": 6,
+        "ambient": false,
+        "showParticles": false
+      }
+    ]
+  }
+}

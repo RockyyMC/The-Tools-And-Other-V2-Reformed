@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "reformed_ingots",
+  "category": "misc",
+  "experience": 2,
+  "cookingtime": 176,
+  "ingredient": "the_tools_and_other_v2_reformed:reinforced_iron_ore",
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:reinforced_iron_ingot"
+  }
+}

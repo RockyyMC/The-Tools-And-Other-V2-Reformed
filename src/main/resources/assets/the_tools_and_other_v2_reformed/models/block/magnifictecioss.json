@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/magnifictecioss",
+    "up": "the_tools_and_other_v2_reformed:block/magnifictecioss",
+    "north": "the_tools_and_other_v2_reformed:block/magnifictecioss",
+    "east": "the_tools_and_other_v2_reformed:block/magnifictecioss",
+    "south": "the_tools_and_other_v2_reformed:block/magnifictecioss",
+    "west": "the_tools_and_other_v2_reformed:block/magnifictecioss",
+    "particle": "the_tools_and_other_v2_reformed:block/magnifictecioss"
+  },
+  "render_type": "solid"
+}

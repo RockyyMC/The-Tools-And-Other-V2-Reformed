@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion Wearknes",
+    "splashName": "Splash Wearknes",
+    "lingeringName": "Lingering Potion  Wearknes",
+    "arrowName": "Arrow of Wearknes",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Warkdes"
+        },
+        "duration": 5900,
+        "infinite": false,
+        "amplifier": 6,
+        "ambient": false,
+        "showParticles": false
+      }
+    ]
+  }
+}

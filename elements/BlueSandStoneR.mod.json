@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlueSand"
+      },
+      {
+        "value": "CUSTOM:BlueSand"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlueSand"
+      },
+      {
+        "value": "CUSTOM:BlueSand"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlueSandStone"
+    },
+    "name": "blue_sand_stone_r",
+    "namespace": "mod"
+  }
+}

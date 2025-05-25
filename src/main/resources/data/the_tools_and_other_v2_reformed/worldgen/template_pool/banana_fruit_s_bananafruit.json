@@ -1,0 +1,29 @@
+{
+  "name": "the_tools_and_other_v2_reformed:banana_fruit_s_bananafruit",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 90,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "the_tools_and_other_v2_reformed:banana_fruit",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_ignore",
+              "blocks": [
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Name": "minecraft:structure_block"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

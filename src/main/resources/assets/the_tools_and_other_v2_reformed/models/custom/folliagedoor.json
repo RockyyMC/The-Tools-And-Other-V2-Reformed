@@ -1,0 +1,272 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "the_tools_and_other/doors",
+  "texture_size": [
+    64,
+    64
+  ],
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        0
+      ],
+      "to": [
+        14,
+        11,
+        1
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          11,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            2.75,
+            2.75
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            0,
+            5.5,
+            0.25,
+            8.25
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            0,
+            2.75,
+            2.75,
+            5.5
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            0,
+            5.75,
+            2.75
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            3,
+            5.75,
+            0.25,
+            5.5
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            8.25,
+            2.75,
+            5.5,
+            3
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "from": [
+        3,
+        11,
+        0
+      ],
+      "to": [
+        14,
+        22,
+        1
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          8,
+          11,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2.75,
+            0,
+            5.5,
+            2.75
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            3,
+            5.5,
+            3.25,
+            8.25
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            2.75,
+            2.75,
+            5.5,
+            5.5
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            5.5,
+            3,
+            5.75,
+            5.75
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            0.25,
+            5.75,
+            0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            3,
+            5.75,
+            0.25,
+            6
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        6,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -3,
+        8.25
+      ],
+      "scale": [
+        0.80078,
+        0.60351,
+        1
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        6,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -3,
+        8.25
+      ],
+      "scale": [
+        0.80078,
+        0.60351,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        9.5,
+        -7.25,
+        0
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        10.25,
+        -7.25,
+        0
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2.25,
+        6.25
+      ],
+      "scale": [
+        0.7793,
+        0.84961,
+        1
+      ]
+    },
+    "gui": {
+      "translation": [
+        -0.25,
+        -2,
+        0
+      ],
+      "scale": [
+        0.89453,
+        0.70117,
+        1
+      ]
+    },
+    "head": {
+      "translation": [
+        -0.75,
+        15,
+        4.75
+      ]
+    },
+    "fixed": {
+      "translation": [
+        -1,
+        -2,
+        8
+      ],
+      "scale": [
+        1,
+        0.76563,
+        1
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "doors",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "color": 0,
+      "children": [
+        0,
+        1
+      ]
+    }
+  ]
+}

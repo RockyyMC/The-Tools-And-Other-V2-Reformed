@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AquaPlanks"
+      },
+      {
+        "value": "CUSTOM:AquaPlanks"
+      },
+      {
+        "value": "CUSTOM:AquaPlanks"
+      },
+      {
+        "value": "CUSTOM:AquaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AquaPlanks"
+      },
+      {
+        "value": "CUSTOM:AquaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AquaPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AquaArmor.legs"
+    },
+    "name": "aqua_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

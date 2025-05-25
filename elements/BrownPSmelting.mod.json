@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "reformed_food",
+    "cookingBookCategory": "MISC",
+    "xpReward": 6.0,
+    "cookingTime": 77,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:BrownPorkchop"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:BrownPorkchopCoked"
+    },
+    "name": "brown_p_smelting",
+    "namespace": "mod"
+  }
+}

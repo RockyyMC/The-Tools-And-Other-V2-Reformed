@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/optiniumore",
+    "up": "the_tools_and_other_v2_reformed:block/optiniumore",
+    "north": "the_tools_and_other_v2_reformed:block/optiniumore",
+    "east": "the_tools_and_other_v2_reformed:block/optiniumore",
+    "south": "the_tools_and_other_v2_reformed:block/optiniumore",
+    "west": "the_tools_and_other_v2_reformed:block/optiniumore",
+    "particle": "the_tools_and_other_v2_reformed:block/optiniumore"
+  },
+  "render_type": "solid"
+}

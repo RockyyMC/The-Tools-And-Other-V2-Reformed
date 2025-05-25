@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/blue_bricks_reinforced",
+    "up": "the_tools_and_other_v2_reformed:block/blue_bricks_reinforced",
+    "north": "the_tools_and_other_v2_reformed:block/blue_bricks_reinforced",
+    "east": "the_tools_and_other_v2_reformed:block/blue_bricks_reinforced",
+    "south": "the_tools_and_other_v2_reformed:block/blue_bricks_reinforced",
+    "west": "the_tools_and_other_v2_reformed:block/blue_bricks_reinforced",
+    "particle": "the_tools_and_other_v2_reformed:block/blue_bricks_reinforced"
+  },
+  "render_type": "solid"
+}

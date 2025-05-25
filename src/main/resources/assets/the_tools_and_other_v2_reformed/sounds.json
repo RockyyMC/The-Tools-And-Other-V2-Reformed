@@ -1,0 +1,18 @@
+{
+  "explosion": {
+    "sounds": [
+      {
+        "name": "the_tools_and_other_v2_reformed:anti-matter-explosive-sfx-with-alarm-_1__1",
+        "stream": false
+      }
+    ]
+  },
+  "explosive": {
+    "sounds": [
+      {
+        "name": "the_tools_and_other_v2_reformed:anti-matter-explosive-sfx-with-alarm",
+        "stream": false
+      }
+    ]
+  }
+}

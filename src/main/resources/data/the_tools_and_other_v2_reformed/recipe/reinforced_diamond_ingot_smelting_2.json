@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 8,
+  "cookingtime": 179,
+  "ingredient": "the_tools_and_other_v2_reformed:reinforced_deepslate_diamond_ore",
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:reinforced_diamond_ingot"
+  }
+}

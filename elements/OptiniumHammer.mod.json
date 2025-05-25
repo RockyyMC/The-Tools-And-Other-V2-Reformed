@@ -1,0 +1,38 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "MultiTool",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "optiniumhammer",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Optinium Hammer",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Hammer"
+      }
+    ],
+    "efficiency": 45.0,
+    "attackSpeed": 45.0,
+    "enchantability": 42,
+    "damageVsEntity": 22.0,
+    "usageCount": 4987,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInUseTick": {
+      "name": "RompeB"
+    }
+  }
+}

@@ -1,0 +1,237 @@
+[24May2025 22:22:03.664] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.123, --assetIndex, 19, --assetsDir, C:\\Users\\Alex\\.mcreator\\gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 6.0.11, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.123, --fml.neoFormVersion, 20241203.161809]
+[24May2025 22:22:03.673] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+[24May2025 22:22:03.676] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[24May2025 22:22:04.074] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[24May2025 22:22:04.324] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[24May2025 22:22:04.470] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[24May2025 22:22:04.851] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Alex/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23162!/ Service=ModLauncher Env=CLIENT
+[24May2025 22:22:05.584] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics 600 GL version 4.6.0 - Build 30.0.101.1960, Intel
+[24May2025 22:22:06.507] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[24May2025 22:22:06.513] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.4 (minecraft)
+		NeoForge 21.4.123 (neoforge)
+		RockyLib 1.1-Fint (rockylib)
+		The Tools And Other Reformed 4.1.02 (the_tools_and_other_v2_reformed)
+[24May2025 22:22:12.675] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.123, --gameDir, ., --assetsDir, C:\Users\Alex\.mcreator\gradle\caches\neoformruntime\assets, --assetIndex, 19]
+[24May2025 22:22:21.772] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[24May2025 22:22:37.131] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 18012 milliseconds
+[24May2025 22:22:45.900] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24May2025 22:22:45.903] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24May2025 22:22:45.913] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[24May2025 22:22:45.918] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[24May2025 22:22:45.921] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[24May2025 22:22:46.605] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Alex/MCreatorWorkspaces/the_tools_and_other_v2_reformed/build/moddev/artifacts/neoforge-21.4.123.jar%23216!/assets/.mcassetsroot' uses unexpected schema
+[24May2025 22:22:46.606] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Alex/MCreatorWorkspaces/the_tools_and_other_v2_reformed/build/moddev/artifacts/neoforge-21.4.123.jar%23216!/data/.mcassetsroot' uses unexpected schema
+[24May2025 22:22:46.707] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[24May2025 22:22:46.761] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[24May2025 22:22:47.232] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[24May2025 22:22:47.597] [Download-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for 380df991-f603-344c-a090-369bad2a924a
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://sessionserver.mojang.com/session/minecraft/profile/380df991f603344ca090369bad2a924a?unsigned=false due to sessionserver.mojang.com
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.57.jar%23136!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.57.jar%23136!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fetchProfileUncached(YggdrasilMinecraftSessionService.java:201) ~[authlib-6.0.57.jar%23136!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fetchProfile(YggdrasilMinecraftSessionService.java:171) ~[authlib-6.0.57.jar%23136!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.lambda$new$1(Minecraft.java:423) ~[neoforge-21.4.123.jar%23216!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.UnknownHostException: sessionserver.mojang.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1297) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1138) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.57.jar%23136!/:?]
+	... 8 more
+[24May2025 22:22:47.634] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.57.jar%23136!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.57.jar%23136!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.57.jar%23136!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.57.jar%23136!/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1297) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1138) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.57.jar%23136!/:?]
+	... 9 more
+[24May2025 22:22:48.302] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.123, for MC 1.21.4
+[24May2025 22:22:54.624] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[24May2025 22:22:55.915] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/rockylib, mod/the_tools_and_other_v2_reformed
+[24May2025 22:22:56.272] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [the_tools_and_other_v2_reformed] Starting version check at https://www.github.com/RockyyyFOG/The-Tools-And-Other
+[24May2025 22:22:56.564] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+java.net.ConnectException: null
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:952) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.VersionChecker$1.openUrlString(VersionChecker.java:129) ~[loader-6.0.11.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:162) ~[loader-6.0.11.jar%23173!/:6.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.11/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-6.0.11.jar%23173!/:6.0]
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1041) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:527) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:138) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:391) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:584) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:414) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:456) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:446) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:347) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:300) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1050) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:931) ~[java.net.http:?]
+	... 5 more
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137) ~[?:?]
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865) ~[?:?]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210) ~[java.net.http:?]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571) ~[?:?]
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:527) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:138) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:391) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:584) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:414) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:456) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372) ~[?:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:446) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:347) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2719) ~[?:?]
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:300) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:1050) ~[java.net.http:?]
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:931) ~[java.net.http:?]
+	... 5 more
+[24May2025 22:22:56.752] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
+[24May2025 22:22:58.436] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
+[24May2025 22:23:03.176] [resourceLoad/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model the_tools_and_other_v2_reformed:models/custom/netherite_mace.json
+net.minecraft.ResourceLocationException: Non [a-z0-9/._-] character in path of location: minecraft:the_tools_and_other/netherite_netherite mace
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.resources.ResourceLocation.assertValidPath(ResourceLocation.java:284) ~[neoforge-21.4.123.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.resources.ResourceLocation.withDefaultNamespace(ResourceLocation.java:60) ~[neoforge-21.4.123.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.resources.ResourceLocation.bySeparator(ResourceLocation.java:84) ~[neoforge-21.4.123.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.resources.ResourceLocation.parse(ResourceLocation.java:56) ~[neoforge-21.4.123.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:183) ~[neoforge-21.4.123.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.renderer.block.model.BlockModel$Deserializer.deserialize(BlockModel.java:164) ~[neoforge-21.4.123.jar%23216!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.11.0/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:95) ~[gson-2.11.0.jar%23127!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.11.0/com.google.gson.Gson.fromJson(Gson.java:1361) ~[gson-2.11.0.jar%23127!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.11.0/com.google.gson.Gson.fromJson(Gson.java:1463) ~[gson-2.11.0.jar%23127!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.11.0/com.google.gson.Gson.fromJson(Gson.java:1434) ~[gson-2.11.0.jar%23127!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.11.0/com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:199) ~[gson-2.11.0.jar%23127!/:?]
+	at TRANSFORMER/neoforge@21.4.123/net.neoforged.neoforge.client.model.UnbakedModelParser$Deserializer.deserialize(UnbakedModelParser.java:76) ~[neoforge-21.4.123.jar%23217!/:?]
+	at TRANSFORMER/neoforge@21.4.123/net.neoforged.neoforge.client.model.UnbakedModelParser$Deserializer.deserialize(UnbakedModelParser.java:46) ~[neoforge-21.4.123.jar%23217!/:?]
+	at MC-BOOTSTRAP/com.google.gson@2.11.0/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:95) ~[gson-2.11.0.jar%23127!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:432) ~[neoforge-21.4.123.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:439) ~[neoforge-21.4.123.jar%23216!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:491) ~[neoforge-21.4.123.jar%23216!/:?]
+	at TRANSFORMER/neoforge@21.4.123/net.neoforged.neoforge.client.model.UnbakedModelParser.parse(UnbakedModelParser.java:43) ~[neoforge-21.4.123.jar%23217!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$10(ModelManager.java:195) ~[neoforge-21.4.123.jar%23216!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.TracingExecutor.lambda$forName$0(TracingExecutor.java:18) ~[neoforge-21.4.123.jar%23216!/:?]
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[24May2025 22:23:05.164] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelDiscovery/]: Missing block model: 'minecraft:the_tools_and_other_v2_reformed'
+[24May2025 22:23:05.354] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelDiscovery/]: Missing block model: 'minecraft:the_tools_and_other/box_of_pizza'
+[24May2025 22:23:05.989] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelDiscovery/]: Missing block model: 'minecraft:the_tools_and_other/pentist'
+[24May2025 22:23:05.990] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelDiscovery/]: Missing block model: 'minecraft:tntx60'
+[24May2025 22:23:05.990] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelDiscovery/]: Missing block model: 'minecraft:the_tools_and_other/diamond_hammer'
+[24May2025 22:23:05.991] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelDiscovery/]: Missing block model: 'minecraft:the_tools_and_other/sword'
+[24May2025 22:23:05.993] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelDiscovery/]: Missing block model: 'the_tools_and_other_v2_reformed:item/axoltl_leggings'
+[24May2025 22:23:06.506] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelDiscovery/]: Missing block model: 'the_tools_and_other_v2_reformed:item/axoltl_chestplate'
+[24May2025 22:23:06.513] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelDiscovery/]: Missing block model: 'minecraft:the_tools_and_other/pizza'
+[24May2025 22:23:06.524] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelDiscovery/]: Missing block model: 'minecraft:the_tools_and_other/mace'
+[24May2025 22:23:06.529] [resourceLoad/WARN] [net.minecraft.client.resources.model.ModelDiscovery/]: Missing block model: 'the_tools_and_other_v2_reformed:item/axoltl_helmet'
+[24May2025 22:23:07.596] [resourceLoad/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture the_tools_and_other_v2_reformed:block/chest_delante with size 174x175 limits mip level from 2 to 0
+[24May2025 22:23:18.017] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek(R) Audio)
+[24May2025 22:23:18.022] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[24May2025 22:23:18.873] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/blocks.png-atlas
+[24May2025 22:23:20.818] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[24May2025 22:23:20.925] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[24May2025 22:23:20.990] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[24May2025 22:23:21.173] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[24May2025 22:23:25.305] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[24May2025 22:23:25.509] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[24May2025 22:23:25.601] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[24May2025 22:23:25.758] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[24May2025 22:23:25.907] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[24May2025 22:23:26.283] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[24May2025 22:23:26.978] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/paintings.png-atlas
+[24May2025 22:23:27.151] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x1024x0 minecraft:textures/atlas/mob_effects.png-atlas
+[24May2025 22:23:27.314] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[24May2025 22:23:28.662] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[24May2025 22:24:36.257] [Render thread/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag the_tools_and_other_v2_reformed:optinium as it is missing following references: 
+	the_tools_and_other:optinium_rot (from mod/the_tools_and_other_v2_reformed)
+	the_tools_and_other:optinium_pickaxe (from mod/the_tools_and_other_v2_reformed)
+	the_tools_and_other:optinium_axe (from mod/the_tools_and_other_v2_reformed)
+	the_tools_and_other:optinium_hammer (from mod/the_tools_and_other_v2_reformed)
+	the_tools_and_other:optinium (from mod/the_tools_and_other_v2_reformed)
+	the_tools_and_other:optinium_ore (from mod/the_tools_and_other_v2_reformed)
+	the_tools_and_other:optinium_ingot (from mod/the_tools_and_other_v2_reformed)
+[24May2025 22:24:39.293] [Worker-Main-4/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file 'the_tools_and_other_v2_reformed:green_oak_planks_r' from 'the_tools_and_other_v2_reformed:recipe/green_oak_planks_r.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: the_tools_and_other_v2_reformed:deleted_mod_element; Map entry 'a' : Failed to parse either. First: Not a JSON object: "the_tools_and_other_v2_reformed:deleted_mod_element"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "the_tools_and_other_v2_reformed:deleted_mod_element"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: the_tools_and_other_v2_reformed:deleted_mod_element; Not a JSON object: "the_tools_and_other_v2_reformed:deleted_mod_element"']
+[24May2025 22:24:39.769] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1648 recipes
+[24May2025 22:24:39.813] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1488 advancements
+[24May2025 22:24:39.820] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[24May2025 22:27:04.581] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

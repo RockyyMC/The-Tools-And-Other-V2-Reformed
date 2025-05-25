@@ -1,0 +1,179 @@
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 2025-03-09 12:12:20
+Description: Ticking entity
+
+java.lang.IllegalArgumentException: Can't find attribute minecraft:tempt_range
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.ai.attributes.AttributeSupplier.getAttributeInstance(AttributeSupplier.java:20) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.ai.attributes.AttributeSupplier.getValue(AttributeSupplier.java:27) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.ai.attributes.AttributeMap.getValue(AttributeMap.java:66) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.LivingEntity.getAttributeValue(LivingEntity.java:2049) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.ai.goal.TemptGoal.canUse(TemptGoal.java:47) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.ai.goal.WrappedGoal.canUse(WrappedGoal.java:22) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:87) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.Mob.serverAiStep(Mob.java:779) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:2825) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.Mob.aiStep(Mob.java:559) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.AgeableMob.aiStep(AgeableMob.java:127) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.animal.Animal.aiStep(Animal.java:64) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.animal.Chicken.aiStep(Chicken.java:77) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2560) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.Mob.tick(Mob.java:347) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:768) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.Level.guardEntityTick(Level.java:577) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.level.ServerLevel.lambda$tick$2(ServerLevel.java:416) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:396) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1090) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:963) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:108) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:723) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:278) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.ai.attributes.AttributeSupplier.getAttributeInstance(AttributeSupplier.java:20) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.ai.attributes.AttributeSupplier.getValue(AttributeSupplier.java:27) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.ai.attributes.AttributeMap.getValue(AttributeMap.java:66) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.LivingEntity.getAttributeValue(LivingEntity.java:2049) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.ai.goal.TemptGoal.canUse(TemptGoal.java:47) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.ai.goal.WrappedGoal.canUse(WrappedGoal.java:22) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.ai.goal.GoalSelector.tick(GoalSelector.java:87) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.Mob.serverAiStep(Mob.java:779) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.LivingEntity.aiStep(LivingEntity.java:2825) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.Mob.aiStep(Mob.java:559) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.AgeableMob.aiStep(AgeableMob.java:127) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.animal.Animal.aiStep(Animal.java:64) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.animal.Chicken.aiStep(Chicken.java:77) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2560) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.entity.Mob.tick(Mob.java:347) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.level.ServerLevel.tickNonPassenger(ServerLevel.java:768) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.Level.guardEntityTick(Level.java:577) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.level.ServerLevel.lambda$tick$2(ServerLevel.java:416) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+-- Entity being ticked --
+Details:
+	Entity Type: the_tools_and_other:duck (net.rocky.thetoolsandother.entity.DuckEntity)
+	Entity ID: 172
+	Entity Name: Duck
+	Entity's Exact location: 177.50, -60.00, -40.50
+	Entity's Block location: World: (177,-60,-41), Section: (at 1,4,7 in 11,-4,-3; chunk contains blocks 176,-64,-48 to 191,319,-33), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.Level.guardEntityTick(Level.java:577) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.level.ServerLevel.lambda$tick$2(ServerLevel.java:416) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.world.level.entity.EntityTickList.forEach(EntityTickList.java:53) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:396) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1090) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:963) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:108) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:723) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:278) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayer['Dev'/25, l='ServerLevel[New World]', x=179.27, y=-60.00, z=-37.94]]
+	Chunk stats: 1572
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,-60,0), Section: (at 0,4,0 in 0,-4,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 34353 game time, 34353 day time
+	Level name: New World
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Commands: true
+	Level weather: Rain time: 103781 (now: false), thunder time: 34552 (now: false)
+	Known server brands: neoforge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Loaded entity count: 125
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.level.ServerLevel.fillReportDetails(ServerLevel.java:1764) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1093) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:963) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:108) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:723) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:278) ~[neoforge-21.4.101-beta.jar%23216!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.4
+	Minecraft Version ID: 1.21.4
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.5, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 139194272 bytes (132 MiB) / 517996544 bytes (494 MiB) up to 1021313024 bytes (974 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Celeron(R) N4120 CPU @ 1.10GHz
+	Identifier: Intel64 Family 6 Model 122 Stepping 8
+	Microarchitecture: Goldmont Plus
+	Frequency (GHz): 1.09
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: Intel(R) UHD Graphics 600
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 1024.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 30.0.101.1960
+	Memory slot #0 capacity (MiB): 2048.00
+	Memory slot #0 clockSpeed (GHz): 2.13
+	Memory slot #0 type: LPDDR4
+	Memory slot #1 capacity (MiB): 2048.00
+	Memory slot #1 clockSpeed (GHz): 2.13
+	Memory slot #1 type: LPDDR4
+	Virtual memory max (MiB): 7917.05
+	Virtual memory used (MiB): 5336.25
+	Swap memory total (MiB): 4024.00
+	Swap memory used (MiB): 505.56
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 50172.36, total: 120687.00
+	Space in storage for workdir (MiB): available: 50172.36, total: 120687.00
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/25, l='ServerLevel[New World]', x=179.27, y=-60.00, z=-37.94]]
+	Active Data Packs: vanilla, mod_data, mod/neoforge, mod/rockylib, mod/the_tools_and_other
+	Available Data Packs: minecart_improvements, redstone_experiments, trade_rebalance, vanilla, mod/neoforge, mod/rockylib, mod/the_tools_and_other, mod_data
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	World Seed: -5864546129242166096
+	Suppressed Exceptions: ~~NONE~~
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'neoforge'; Server brand changed to 'neoforge'
+	Launched Version: 21.4.101-beta
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: neoforgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-6.0.11.jar slf4jfixer PLUGINSERVICE 
+		loader-6.0.11.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-11.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-6.0.11.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@6.0
+		lowcodefml@6.0
+		minecraft@6.0
+	Mod List: 
+		neoforge-21.4.101-beta.jar                        |Minecraft                     |minecraft                     |1.21.4              |Manifest: NOSIGNATURE
+		neoforge-21.4.101-beta.jar                        |NeoForge                      |neoforge                      |21.4.101-beta       |Manifest: NOSIGNATURE
+		rockylib-1.0-neoforge-1.21.4.jar                  |RockyLib                      |rockylib                      |1.0+mc1.21.4        |Manifest: NOSIGNATURE
+		main                                              |The Tools And Other           |the_tools_and_other           |2.3.7               |Manifest: NOSIGNATURE
+	Crash Report UUID: 0801fb6f-a8e1-44ec-9324-642198f1f794
+	FML: 6.0.11
+	NeoForge: 21.4.101-beta

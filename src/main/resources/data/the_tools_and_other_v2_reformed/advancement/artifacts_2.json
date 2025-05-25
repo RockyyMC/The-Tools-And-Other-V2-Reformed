@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_tools_and_other_v2_reformed:green_diamond_ingot"
+    },
+    "title": {
+      "translate": "advancements.artifacts_2.title"
+    },
+    "description": {
+      "translate": "advancements.artifacts_2.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "artifacts_2_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_tools_and_other_v2_reformed:green_diamond_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50,
+    "recipes": [
+      "the_tools_and_other_v2_reformed:green_diamond_ingot_smelting",
+      "the_tools_and_other_v2_reformed:green_diamond_ingot_r",
+      "the_tools_and_other_v2_reformed:green_diamond_pickaxe_r",
+      "the_tools_and_other_v2_reformed:green_diamond_axe_r",
+      "the_tools_and_other_v2_reformed:green_diamond_shovel_r",
+      "the_tools_and_other_v2_reformed:green_diamond_hoe_r"
+    ]
+  },
+  "parent": "minecraft:adventure/totem_of_undying"
+}

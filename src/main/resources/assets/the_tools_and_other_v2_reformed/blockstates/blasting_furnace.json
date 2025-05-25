@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_tools_and_other_v2_reformed:block/blasting_furnace"
+    },
+    "facing=east": {
+      "model": "the_tools_and_other_v2_reformed:block/blasting_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_tools_and_other_v2_reformed:block/blasting_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_tools_and_other_v2_reformed:block/blasting_furnace",
+      "y": 270
+    }
+  }
+}

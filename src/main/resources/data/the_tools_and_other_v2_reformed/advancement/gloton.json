@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_tools_and_other_v2_reformed:pizza"
+    },
+    "title": {
+      "translate": "advancements.gloton.title"
+    },
+    "description": {
+      "translate": "advancements.gloton.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gloton_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "the_tools_and_other_v2_reformed:vainilla_nutella"
+          ]
+        }
+      }
+    },
+    "gloton_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "the_tools_and_other_v2_reformed:strawberry_nutella"
+          ]
+        }
+      }
+    },
+    "gloton_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "the_tools_and_other_v2_reformed:chocolate_nutella"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  },
+  "parent": "the_tools_and_other_v2_reformed:una_terrible_pizza"
+}

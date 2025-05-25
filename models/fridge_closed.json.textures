@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "dark_fridge"
+      },
+      "name": "default"
+    }
+  }
+}

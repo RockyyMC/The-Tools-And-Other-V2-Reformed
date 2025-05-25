@@ -1,0 +1,214 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "the_tools_and_other/pizza",
+  "texture_size": [
+    32,
+    32
+  ],
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        0.25,
+        13
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          9,
+          0,
+          7
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            0,
+            14,
+            0.5
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            7,
+            1,
+            13,
+            1.5
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            7,
+            0.5,
+            14,
+            1
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            7,
+            1.5,
+            13,
+            2
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            7,
+            6,
+            0,
+            0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            7,
+            6,
+            0,
+            12
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        104.5,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -1.75,
+        6.5
+      ],
+      "scale": [
+        0.51758,
+        0.73047,
+        0.56836
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        104.5,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -1.75,
+        6.5
+      ],
+      "scale": [
+        0.51758,
+        0.73047,
+        0.56836
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        25.48,
+        -7,
+        0.1
+      ],
+      "translation": [
+        2,
+        5.5,
+        2.75
+      ],
+      "scale": [
+        0.4082,
+        0.73047,
+        0.32617
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        3.98,
+        -7,
+        0.1
+      ],
+      "translation": [
+        -0.75,
+        6.25,
+        3.25
+      ],
+      "scale": [
+        0.4082,
+        0.59375,
+        0.42383
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        5.5,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        70.59,
+        0.35,
+        -176.79
+      ],
+      "translation": [
+        0.25,
+        -2.25,
+        0
+      ],
+      "scale": [
+        1,
+        0.73828,
+        0.79492
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        14.5,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        92.5,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -0.25,
+        6.75
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "pizza",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "color": 0,
+      "children": [
+        0
+      ]
+    }
+  ]
+}

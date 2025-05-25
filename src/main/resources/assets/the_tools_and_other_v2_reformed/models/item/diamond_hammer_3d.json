@@ -1,0 +1,7 @@
+{
+  "parent": "the_tools_and_other_v2_reformed:custom/diamond_hammer",
+  "textures": {
+    "diamond_hammer": "the_tools_and_other_v2_reformed:block/diamond_hammer",
+    "particle": "the_tools_and_other_v2_reformed:item/diamond_hammerv2"
+  }
+}

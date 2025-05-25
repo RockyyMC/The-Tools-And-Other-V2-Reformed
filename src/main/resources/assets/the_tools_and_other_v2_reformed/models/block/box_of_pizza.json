@@ -1,0 +1,9 @@
+{
+  "parent": "the_tools_and_other_v2_reformed:custom/box_of_pizza",
+  "textures": {
+    "all": "the_tools_and_other_v2_reformed:block/box_of_pizza",
+    "particle": "the_tools_and_other_v2_reformed:block/box_of_pizza",
+    "0": "the_tools_and_other_v2_reformed:block/box_of_pizza"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:amethyst_cluster",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:amethyst_shovel",
+    "count": 1
+  }
+}

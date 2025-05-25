@@ -1,0 +1,9 @@
+{
+  "parent": "the_tools_and_other_v2_reformed:custom/enredadera_flor_uno",
+  "textures": {
+    "all": "the_tools_and_other_v2_reformed:block/enredadera",
+    "particle": "the_tools_and_other_v2_reformed:block/enredadera",
+    "0": "the_tools_and_other_v2_reformed:block/enredadera"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_ocean",
+  "features": "the_tools_and_other_v2_reformed:blue_bricks",
+  "step": "underground_ores"
+}

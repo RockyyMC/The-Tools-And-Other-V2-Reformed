@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "the_tools_and_other_v2_reformed:item/bedrock_leggings"
+  }
+}

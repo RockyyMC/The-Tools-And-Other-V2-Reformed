@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "§5Armors",
+    "icon": {
+      "value": "CUSTOM:AmethystArmor.body"
+    },
+    "showSearch": false
+  }
+}

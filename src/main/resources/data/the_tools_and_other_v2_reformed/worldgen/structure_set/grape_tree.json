@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "the_tools_and_other_v2_reformed:grape_tree",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 4,
+    "salt": 729399548
+  }
+}

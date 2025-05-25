@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "the_tools_and_other_v2_reformed:block/folliage_block",
+    "particle": "the_tools_and_other_v2_reformed:block/folliage_block"
+  },
+  "render_type": "translucent"
+}

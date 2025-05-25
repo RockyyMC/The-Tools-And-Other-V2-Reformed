@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "structure",
+  "definition": {
+    "structure": "berny_tree",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 9,
+    "separation": 6,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BernyForest"
+      },
+      {
+        "value": "forest"
+      }
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 63,
+    "startHeightMax": 64,
+    "size": 1,
+    "maxDistanceFromCenter": 32,
+    "jigsawPools": [
+      {
+        "poolName": "bernytree",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 100,
+            "structure": "berny_tree",
+            "projection": "rigid",
+            "ignoredBlocks": [
+              {
+                "value": "Blocks.AIR"
+              },
+              {
+                "value": "Blocks.STRUCTURE_BLOCK"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

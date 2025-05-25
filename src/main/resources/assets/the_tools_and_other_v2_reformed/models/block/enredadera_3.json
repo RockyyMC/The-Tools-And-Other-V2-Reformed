@@ -1,0 +1,10 @@
+{
+  "parent": "the_tools_and_other_v2_reformed:custom/enredadera_flor_tres",
+  "textures": {
+    "all": "the_tools_and_other_v2_reformed:block/flor",
+    "particle": "the_tools_and_other_v2_reformed:block/flor",
+    "0": "the_tools_and_other_v2_reformed:block/flor",
+    "2": "the_tools_and_other_v2_reformed:block/enredadera_flor"
+  },
+  "render_type": "cutout"
+}

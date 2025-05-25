@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Chests",
+    "icon": {
+      "value": "CUSTOM:Chest"
+    },
+    "showSearch": false
+  }
+}

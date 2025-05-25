@@ -1,0 +1,726 @@
+[19Feb2025 17:29:21.624] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.78-beta, --assetIndex, 19, --assetsDir, C:\\Users\\Alex\\.mcreator\\gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 6.0.6, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.78-beta, --fml.neoFormVersion, 20241203.161809]
+[19Feb2025 17:29:21.633] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[19Feb2025 17:29:21.636] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.5 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[19Feb2025 17:29:22.497] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[19Feb2025 17:29:22.994] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[19Feb2025 17:29:23.199] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[19Feb2025 17:29:23.552] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Alex/.mcreator/gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23162!/ Service=ModLauncher Env=CLIENT
+[19Feb2025 17:29:24.337] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics 600 GL version 4.6.0 - Build 30.0.101.1960, Intel
+[19Feb2025 17:29:25.695] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[19Feb2025 17:29:25.700] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
+		Forgified Fabric Renderer API (v1) (CaffeineMC) 5.0.0+babc52e504 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
+		Lithium 0.14.7+mc1.21.4 (lithium)
+		Minecraft 1.21.4 (minecraft)
+		NeoForge 21.4.78-beta (neoforge)
+		Sodium 0.6.7+mc1.21.4 (sodium)
+		Sodium Extra 0.6.1+mc1.21.4 (sodium_extra)
+		The Tools And Utilies 2.0.0 (the_tools_and_utilies)
+[19Feb2025 17:29:28.895] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/entity/SpedFurnaceBlockEntity.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:28.976] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/MagneButtonBlock.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:28.981] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/MagneDoorBlock.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:28.988] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/MagneFenceBlock.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:28.992] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/MagneFenceGateBlock.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:29.006] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/MagneLeavesBlock.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:29.366] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/MagneLogBlock.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:29.458] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/MagnePlanksBlock.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:29.462] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/MagnePressurePlateBlock.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:29.577] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/MagneSlabBlock.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:29.580] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/MagneStairsBlock.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:29.587] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/MagneTrapdoorBlock.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:29.594] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/MagneWoodBlock.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:29.605] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/SpedFurnaceBlock$1.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:29.666] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/block/SpedFurnaceBlock.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:29.677] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/client/gui/SpeddScreen.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:29.741] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/client/particle/MagneParticlesParticle$MagneParticlesParticleProvider.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:29.861] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/client/particle/MagneParticlesParticle.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:30.074] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/client/renderer/ToolsTradingRenderer.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:30.138] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/init/TheToolsAndUtiliesModBiomes.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:30.192] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/init/TheToolsAndUtiliesModBlockEntities.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:30.346] [background-scan-handler-2/ERROR] [net.neoforged.fml.loading.modscan.Scanner/SCAN]: Exception scanning Mod File: C:\Users\Alex\MCreatorWorkspaces\the_tools_and_utilies\build\classes\java\main path net/mcreator/thetoolsandutilies/init/TheToolsAndUtiliesModEntities.class
+java.lang.IllegalArgumentException: Unsupported class file major version 8257
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:200) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:180) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:166) ~[asm-9.7.jar:?]
+	at org.objectweb.asm@9.7/org.objectweb.asm.ClassReader.<init>(ClassReader.java:288) ~[asm-9.7.jar:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.fileVisitor(Scanner.java:37) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.lambda$scan$0(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:540) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.reduce(ReferencePipeline.java:662) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.scanFile(ModFile.java:153) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.modscan.Scanner.scan(Scanner.java:30) ~[loader-6.0.6.jar%23173!/:6.0]
+	at MC-BOOTSTRAP/fml_loader@6.0.6/net.neoforged.fml.loading.moddiscovery.ModFile.compileContent(ModFile.java:146) ~[loader-6.0.6.jar%23173!/:6.0]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19Feb2025 17:29:31.541] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[19Feb2025 17:29:31.572] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[19Feb2025 17:29:31.894] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.78-beta, --gameDir, ., --assetsDir, C:\Users\Alex\.mcreator\gradle\caches\neoformruntime\assets, --assetIndex, 19]
+[19Feb2025 17:29:32.591] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 0 override(s) found
+[19Feb2025 17:29:32.995] [main/INFO] [Lithium/]: Loaded configuration file for Lithium: 138 options available, 0 override(s) found
+[19Feb2025 17:29:33.251] [main/INFO] [Sodium Extra Config/]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
+[19Feb2025 17:29:33.254] [main/WARN] [mixin/]: Reference map 'sodium-extra.refmap.json' for sodium-extra.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Feb2025 17:29:38.654] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19Feb2025 17:30:00.400] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 12295 milliseconds
+[19Feb2025 17:30:34.183] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19Feb2025 17:30:34.186] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19Feb2025 17:30:34.195] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19Feb2025 17:30:34.199] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19Feb2025 17:30:34.203] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19Feb2025 17:30:35.083] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Alex/MCreatorWorkspaces/the_tools_and_utilies/build/moddev/artifacts/neoforge-21.4.78-beta.jar%23218!/assets/.mcassetsroot' uses unexpected schema
+[19Feb2025 17:30:35.083] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Alex/MCreatorWorkspaces/the_tools_and_utilies/build/moddev/artifacts/neoforge-21.4.78-beta.jar%23218!/data/.mcassetsroot' uses unexpected schema
+[19Feb2025 17:30:35.209] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19Feb2025 17:30:35.245] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[19Feb2025 17:30:35.644] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[19Feb2025 17:30:35.893] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Vendor: Intel
+[19Feb2025 17:30:35.894] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Renderer: Intel(R) UHD Graphics 600
+[19Feb2025 17:30:35.894] [Render thread/INFO] [com.mojang.blaze3d.platform.Window/]: OpenGL Version: 4.6.0 - Build 30.0.101.1960
+[19Feb2025 17:30:36.128] [Download-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for 380df991-f603-344c-a090-369bad2a924a
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://sessionserver.mojang.com/session/minecraft/profile/380df991f603344ca090369bad2a924a?unsigned=false due to sessionserver.mojang.com
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.57.jar%23136!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.57.jar%23136!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fetchProfileUncached(YggdrasilMinecraftSessionService.java:201) ~[authlib-6.0.57.jar%23136!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fetchProfile(YggdrasilMinecraftSessionService.java:171) ~[authlib-6.0.57.jar%23136!/:?]
+	at TRANSFORMER/minecraft@1.21.4/net.minecraft.client.Minecraft.lambda$new$1(Minecraft.java:423) ~[neoforge-21.4.78-beta.jar%23218!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.UnknownHostException: sessionserver.mojang.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1297) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1138) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.57.jar%23136!/:?]
+	... 8 more
+[19Feb2025 17:30:36.129] [Yggdrasil Key Fetcher/ERROR] [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo/]: Failed to request yggdrasil public key
+com.mojang.authlib.exceptions.MinecraftClientException: Failed to read from https://api.minecraftservices.com/publickeys due to api.minecraftservices.com
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:111) ~[authlib-6.0.57.jar%23136!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-6.0.57.jar%23136!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo.fetch(YggdrasilServicesKeyInfo.java:114) ~[authlib-6.0.57.jar%23136!/:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo$1.run(YggdrasilServicesKeyInfo.java:89) ~[authlib-6.0.57.jar%23136!/:?]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.net.UnknownHostException: api.minecraftservices.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531) ~[?:?]
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:377) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1297) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1138) ~[?:?]
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1690) ~[?:?]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1614) ~[?:?]
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:531) ~[?:?]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:307) ~[?:?]
+	at MC-BOOTSTRAP/authlib@6.0.57/com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:82) ~[authlib-6.0.57.jar%23136!/:?]
+	... 9 more
+[19Feb2025 17:30:37.034] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.78-beta, for MC 1.21.4
+[19Feb2025 17:30:41.642] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[19Feb2025 17:30:42.452] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/sodium, mod/fabric_rendering_data_attachment_v1, mod/lithium, mod/fabric_renderer_api_v1, mod/fabric_api_base, mod/sodium_extra, mod/neoforge, mod/the_tools_and_utilies, mod/fabric_block_view_api_v2
+[19Feb2025 17:30:43.254] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
+[19Feb2025 17:30:45.851] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
+[19Feb2025 17:30:59.913] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek(R) Audio)
+[19Feb2025 17:30:59.915] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[19Feb2025 17:31:00.368] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/blocks.png-atlas
+[19Feb2025 17:31:00.790] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/signs.png-atlas
+[19Feb2025 17:31:00.798] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[19Feb2025 17:31:00.815] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[19Feb2025 17:31:00.839] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[19Feb2025 17:31:00.957] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[19Feb2025 17:31:00.971] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/chest.png-atlas
+[19Feb2025 17:31:00.975] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/beds.png-atlas
+[19Feb2025 17:31:00.982] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19Feb2025 17:31:00.994] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[19Feb2025 17:31:01.995] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[19Feb2025 17:31:02.029] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19Feb2025 17:31:02.039] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19Feb2025 17:31:02.046] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[19Feb2025 17:31:02.122] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[19Feb2025 17:31:54.436] [Render thread/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:needs_stone_tool as it is missing following references: 
+	the_tools_and_utilies:sped_furnace (from mod/the_tools_and_utilies)
+[19Feb2025 17:31:54.438] [Render thread/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:incorrect_for_wooden_tool as it is missing following references: 
+	#minecraft:needs_stone_tool (from vanilla)
+[19Feb2025 17:31:54.439] [Render thread/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:mineable/axe as it is missing following references: 
+	the_tools_and_utilies:magne_planks (from mod/the_tools_and_utilies)
+	the_tools_and_utilies:magne_log (from mod/the_tools_and_utilies)
+[19Feb2025 17:31:54.440] [Render thread/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:incorrect_for_gold_tool as it is missing following references: 
+	#minecraft:needs_stone_tool (from vanilla)
+[19Feb2025 17:31:58.818] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1412 recipes
+[19Feb2025 17:31:58.927] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1481 advancements
+[19Feb2025 17:31:59.627] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.4
+[19Feb2025 17:31:59.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[19Feb2025 17:32:01.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19Feb2025 17:32:02.295] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando área de aparición: 0%
+[19Feb2025 17:32:02.296] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando área de aparición: 0%
+[19Feb2025 17:32:02.297] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando área de aparición: 0%
+[19Feb2025 17:32:02.787] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparando área de aparición: 40%
+[19Feb2025 17:32:03.159] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1898 ms
+[19Feb2025 17:32:03.168] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[19Feb2025 17:32:03.653] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 6, from 10
+[19Feb2025 17:32:03.654] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 6, from 0
+[19Feb2025 17:32:07.351] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:522fafe5] logged in with entity id 1 at (-23.944739604404223, 56.0, 89.27905583539133)
+[19Feb2025 17:32:07.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev se unió a la partida
+[19Feb2025 17:32:08.448] [Render thread/INFO] [ChunkBuilder/]: Started 1 worker threads
+[19Feb2025 17:32:09.430] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Ignoring chat session from Dev due to missing Services public key
+[19Feb2025 17:32:09.471] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 53 advancements
+[19Feb2025 17:32:44.636] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[19Feb2025 17:32:44.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo Nuevo]'/minecraft:overworld
+[19Feb2025 17:32:44.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo Nuevo]'/minecraft:the_nether
+[19Feb2025 17:32:44.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo Nuevo]'/minecraft:the_end
+[19Feb2025 17:32:45.389] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Desconectado/a
+[19Feb2025 17:32:45.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev abandonó la partida
+[19Feb2025 17:32:45.424] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[19Feb2025 17:32:45.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[19Feb2025 17:32:45.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[19Feb2025 17:32:45.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[19Feb2025 17:32:45.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo Nuevo]'/minecraft:overworld
+[19Feb2025 17:32:45.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo Nuevo]'/minecraft:the_nether
+[19Feb2025 17:32:45.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Mundo Nuevo]'/minecraft:the_end
+[19Feb2025 17:32:46.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Mundo Nuevo (1)): All chunks are saved
+[19Feb2025 17:32:46.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19Feb2025 17:32:46.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19Feb2025 17:32:46.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19Feb2025 17:32:46.135] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[19Feb2025 17:32:47.672] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

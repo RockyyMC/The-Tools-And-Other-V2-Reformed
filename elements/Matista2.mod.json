@@ -1,0 +1,16 @@
+{
+  "_fv": 79,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Matist",
+    "pointOfInterest": {
+      "value": "CUSTOM:BlastingFurnace"
+    },
+    "actionSound": {
+      "value": "entity.villager.yes"
+    },
+    "hat": "Partial",
+    "professionTextureFile": "matist_trading.png",
+    "zombifiedProfessionTextureFile": "matist_zombified.png"
+  }
+}

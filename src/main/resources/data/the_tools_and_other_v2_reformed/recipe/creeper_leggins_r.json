@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "minecraft:gunpowder"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:creeper_leggings",
+    "count": 1
+  }
+}

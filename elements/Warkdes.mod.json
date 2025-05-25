@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Warkdes",
+    "icon": "warkded",
+    "color": {
+      "value": -65536,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": true,
+    "modifiers": [],
+    "onStarted": {
+      "name": "Werknes"
+    },
+    "onActiveTick": {
+      "name": "Werknes"
+    },
+    "onExpired": {
+      "name": "Killed"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_bottom",
+  "textures": {
+    "texture": "the_tools_and_other_v2_reformed:block/window",
+    "particle": "the_tools_and_other_v2_reformed:block/window"
+  },
+  "render_type": "translucent"
+}

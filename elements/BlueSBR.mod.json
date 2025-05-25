@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlueSlimeBall"
+      },
+      {
+        "value": "CUSTOM:BlueSlimeBall"
+      },
+      {
+        "value": "CUSTOM:BlueSlimeBall"
+      },
+      {
+        "value": "CUSTOM:BlueSlimeBall"
+      },
+      {
+        "value": "CUSTOM:BlueSlimeBall"
+      },
+      {
+        "value": "CUSTOM:BlueSlimeBall"
+      },
+      {
+        "value": "CUSTOM:BlueSlimeBall"
+      },
+      {
+        "value": "CUSTOM:BlueSlimeBall"
+      },
+      {
+        "value": "CUSTOM:BlueSlimeBall"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlueSlimeBlock"
+    },
+    "name": "blue_sbr",
+    "namespace": "mod"
+  }
+}

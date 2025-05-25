@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "minecraft:obsidian"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:obsidian_armor_leggings",
+    "count": 1
+  }
+}

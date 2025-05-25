@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": "the_tools_and_other_v2_reformed:metal_ingot",
+    "b": "the_tools_and_other_v2_reformed:stick"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:metal_shovel",
+    "count": 1
+  }
+}

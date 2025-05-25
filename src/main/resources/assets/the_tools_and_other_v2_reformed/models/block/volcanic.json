@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/volcanicblock",
+    "up": "the_tools_and_other_v2_reformed:block/volcanicblock",
+    "north": "the_tools_and_other_v2_reformed:block/volcanicblock",
+    "east": "the_tools_and_other_v2_reformed:block/volcanicblock",
+    "south": "the_tools_and_other_v2_reformed:block/volcanicblock",
+    "west": "the_tools_and_other_v2_reformed:block/volcanicblock",
+    "particle": "the_tools_and_other_v2_reformed:block/volcanicblock"
+  },
+  "render_type": "solid"
+}

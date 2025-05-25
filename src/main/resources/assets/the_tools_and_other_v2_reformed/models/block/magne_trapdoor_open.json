@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_open",
+  "textures": {
+    "texture": "the_tools_and_other_v2_reformed:block/magne_door",
+    "particle": "the_tools_and_other_v2_reformed:block/magne_door"
+  },
+  "render_type": "solid"
+}

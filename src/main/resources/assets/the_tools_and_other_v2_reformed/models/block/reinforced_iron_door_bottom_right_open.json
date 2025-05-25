@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right_open",
+  "textures": {
+    "particle": "the_tools_and_other_v2_reformed:block/reinforced_iron_door_bottom",
+    "bottom": "the_tools_and_other_v2_reformed:block/reinforced_iron_door_bottom",
+    "top": "the_tools_and_other_v2_reformed:block/reinforced_iron_door_top"
+  },
+  "render_type": "translucent"
+}

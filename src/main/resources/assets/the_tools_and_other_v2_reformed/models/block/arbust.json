@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_tools_and_other_v2_reformed:block/arbust",
+    "up": "the_tools_and_other_v2_reformed:block/arbust",
+    "north": "the_tools_and_other_v2_reformed:block/arbust",
+    "east": "the_tools_and_other_v2_reformed:block/arbust",
+    "south": "the_tools_and_other_v2_reformed:block/arbust",
+    "west": "the_tools_and_other_v2_reformed:block/arbust",
+    "particle": "the_tools_and_other_v2_reformed:block/arbust"
+  },
+  "render_type": "translucent"
+}

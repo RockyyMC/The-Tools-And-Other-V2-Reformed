@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:stone"
+  },
+  "result": {
+    "id": "the_tools_and_other_v2_reformed:stone_chestplate",
+    "count": 1
+  }
+}

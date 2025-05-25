@@ -1,0 +1,48 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GreenPlanks"
+      },
+      {
+        "value": "CUSTOM:GreenPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GreenPlanks"
+      },
+      {
+        "value": "CUSTOM:GreenPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GreenPlanks"
+      },
+      {
+        "value": "CUSTOM:GreenPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GreenOakDoor"
+    },
+    "name": "green_oak_door_r",
+    "namespace": "mod"
+  }
+}
